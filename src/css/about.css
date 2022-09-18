@@ -1,0 +1,27 @@
+.about-main-page-container{
+
+}
+
+.about-main-page-container .sit-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-main-page-container .sit-image-container img{
+    width: 50rem;
+    height:50rem;
+    z-index: 1;
+}
+
+.about-main-page-container .about-us-text-container{
+    background-color: orange;
+    padding: 4rem 3rem 3rem 3rem;
+    margin:-2rem 2rem 2rem 2rem;
+}
+
+.about-main-page-container .about-us-text-container .about-us-text{
+    font-style: italic;
+}
+
+
+
