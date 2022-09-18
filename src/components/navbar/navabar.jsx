@@ -1,9 +1,9 @@
 import React from 'react'
 
-function navabar() {
+function Navabar() {
   return (
-    <div>navabar</div>
+    <div>Navabar</div>
   )
 }
 
-export default navabar
+export default Navabar
