@@ -1,19 +1,36 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "../navbar/navabar.css"
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
+import {motion} from "framer-motion"
 
 function Navabar() {
+    const [navVisible, setNavVisible] = useState(false);
+    
+    const changeBackground = ()=>{
+        let step = (window.innerHeight)*(15/100)
+        if(window.scrollY>=step){
+            setNavVisible(true);
+        }
+        else{
+            setNavVisible(false)
+        }
+    };
+    window.addEventListener("scroll",changeBackground)
+
     return (
         <div>
-            <div className="navbar_main-container">
+            <motion.nav
+            animate={{y:navVisible?"0px":"2rem"}}
+            transition={{type:"tween"}}
+            className={navVisible?"navbar_main-container navbar_active":"navbar_main-container"}>
                 <ul className='navbar_menu-link-wrapper'>
-                    <li><Link to="/home">Home</Link></li>
-                    <li><Link to="/Committees">Committees</Link></li>
-                    <li><Link to="/Paper-Submission">Paper Submission</Link></li>
-                    <li><Link to="/Registration">Registration</Link></li>
-                    <li><Link to='/Contact-us'>Contact Us</Link></li>
+                    <li><NavLink to="/home">Home</NavLink></li>
+                    <li><NavLink to="/Committees">Committees</NavLink></li>
+                    <li><NavLink to="/Paper-Submission">Paper Submission</NavLink></li>
+                    <li><NavLink to="/Registration">Registration</NavLink></li>
+                    <li><NavLink to='/Contact-us'>Contact Us</NavLink></li>
                 </ul>
-            </div>
+            </motion.nav>
         </div>
     )
 }

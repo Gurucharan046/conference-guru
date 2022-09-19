@@ -28,9 +28,9 @@ function Home() {
           <div className="tracks-card-wrappers">
 
             <motion.div 
-              animate={{y:"0px"}}
-              transition={{type:"tween",duration:1.25}}
-              initial={{y:"-9rem"}}
+              // animate={{y:"0px"}}
+              // transition={{type:"tween",duration:1.25}}
+              // initial={{y:"-9rem"}}
               className="track-container track1"
               >
               <div className="track-name">
@@ -48,9 +48,10 @@ function Home() {
             </motion.div>
 
             <motion.div 
-              animate={{y:"0px"}}
-              transition={{type:"tween",duration:1.25}}
-              initial={{y:"-9rem"}} className="track-container track2">
+              // animate={{y:"0px"}}
+              // transition={{type:"tween",duration:1.25}}
+              // initial={{y:"-9rem"}} 
+              className="track-container track2">
               <div className="track-name">
                 <p>Track 2: AI and ML applications </p>
               </div>
