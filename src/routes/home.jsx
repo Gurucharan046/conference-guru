@@ -2,18 +2,30 @@ import React from 'react'
 import "../css/home.css"
 import {motion} from "framer-motion"
 import Navabar from '../components/navbar/navabar'
+import {BsCalendarCheck} from "react-icons/bs"
+import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
+
 
 
 function Home() {
   return (
     <div>
+
       <div className="home_hero-wrapper">
         <div className="home_hero-container">
           <Navabar/>
           <div className="home_conference-details-wrapper">
             <div className="home_conference-details-container">
-              <div className="home_conference-name">
-                <h2>International Conference on Smart Systems for applications in <span>Electrical Sciences</span></h2>
+              <div className="home_collage-name">
+                <h2>Siddaganga Institute of Technology, Tumkur</h2>
+                <h3>Association of Electrical Sciences</h3>
+                <div className="home_conference-name">
+                  <h2>International Conference on Smart Systems for applications in <span>Electrical Sciences</span></h2>
+                </div>
+                <div className="home_date-container">
+                  <BsCalendarCheck className='calender-icon'/>
+                  <p>JULY 7th and 8th</p>
+                </div>
               </div>
             </div>
           </div>
@@ -183,6 +195,27 @@ function Home() {
 
           </div>
         </div>
+      </div>
+      
+      <div className="important-dates-container">
+        
+        <div className="imp-dates-details">
+        <div className="imp-date-heading">
+          <h2>Important Dates</h2>
+        </div>
+          <ul>
+            <li>Submission Portal Opens: 1st January 2023</li>
+            <li>Full Paper Submission Deadline: 1st April 2023</li>
+            <li>Acceptance/Rejection Notification: 15th 	May 2023</li>
+            <li>Registration opens: 8st June 2023</li>
+          </ul>
+        </div>
+        <div className="imp-image-container">
+          <img src={month} alt="" />
+        </div>
+      </div>
+      <div className='footer'>
+
       </div>
     </div>
   )
