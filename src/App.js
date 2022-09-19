@@ -6,9 +6,13 @@ import Home from "./routes/home"
 function App() {
   return (
     <div className="App">
-      <Navabar/>
+      
       <Routes>
         <Route path="/home" element={<Home/>}/>
+        <Route path="/Committees"/>
+        <Route path='/Paper-Submission'/>
+        <Route path='/Registration'/>
+        <Route path='/Contact-us'/>
       </Routes>
     </div>
   );

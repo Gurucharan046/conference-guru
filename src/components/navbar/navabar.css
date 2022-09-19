@@ -1,0 +1,29 @@
+.navbar_main-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:transparent;
+    height: 15%;
+
+}
+.navbar_menu-link-wrapper{
+    display: flex;
+    justify-content: space-between;
+}.navbar_menu-link-wrapper ul{
+    
+}
+
+.navbar_main-container ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 3rem 4.3rem;
+    
+    
+}
+.navbar_main-container ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25rem;
+    font-weight:600;
+    color: #010102;
+}
