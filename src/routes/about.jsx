@@ -1,11 +1,17 @@
 import React from 'react';
 import logo from "../assets/images/sit logo.png";
 import "../css/about.css"
+import Navabar from '../components/navbar/navabar'
 
 export default function about() {
     return (
         <section className='about-page-main-container'>
-            <h1 className="about-us-heading">  <span className='about-highlight'>About</span> Us</h1>
+            <div className="about-page-hero-container">
+                <Navabar/>
+                <div className="about-page-heading-container">
+                    <h1 className="about-us-heading">  <span className='about-highlight'>About</span> Us</h1>
+                </div>
+            </div>
             <div className="sit-image-container">
                 <img src={logo} alt="sit" />
             </div>
