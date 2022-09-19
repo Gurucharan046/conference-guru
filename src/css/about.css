@@ -1,26 +1,46 @@
-.about-main-page-container{
-
+.about-page-main-container{
+    text-align: center;
 }
 
-.about-main-page-container .sit-image-container{
+.about-page-main-container .about-us-heading{
+    font-size: 6rem;
+    margin: 5rem 0;
+    position: relative;
+    font-weight: 800;
+}
+
+.about-page-main-container .about-us-heading::after{
+    content:'';
+    display: absolute;
+    height: 1rem;
+    width: 2rem;
+    color: orange;
+}
+
+.about-page-main-container .about-us-heading .about-highlight{
+    color: rgb(255, 153, 0);
+}
+
+.about-page-main-container .sit-image-container{
     display: flex;
     justify-content: center;
 }
 
-.about-main-page-container .sit-image-container img{
-    width: 50rem;
-    height:50rem;
+.about-page-main-container .sit-image-container img{
+    width: 60rem;
+    height:60rem;
     z-index: 1;
 }
 
-.about-main-page-container .about-us-text-container{
-    background-color: orange;
-    padding: 4rem 3rem 3rem 3rem;
-    margin:-2rem 2rem 2rem 2rem;
+.about-page-main-container .about-us-text-container{
+    background-color: #f2f2f2;
+    padding: 20rem 10rem 10rem 10rem;
+    margin:-20rem 10rem 5rem 10rem;
 }
 
-.about-main-page-container .about-us-text-container .about-us-text{
+.about-page-main-container .about-us-text-container .about-us-text{
     font-style: italic;
+    font-size:2.5rem;
 }
 
 
