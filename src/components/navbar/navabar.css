@@ -10,9 +10,9 @@
     width: 100%;
 }
 .navbar_active{
-    background-color: #fff;
+    background-color: #e6e6e6;
     transition:300ms;
-    color: #fff;
+    /* color: #fff; */
 }
 .navbar_menu-link-wrapper{
     display: flex;
