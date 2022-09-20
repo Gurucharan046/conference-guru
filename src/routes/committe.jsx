@@ -1,6 +1,10 @@
 import React from 'react';
 import "../css/committe.css";
 import Navabar from '../components/navbar/navabar'
+import ceo from "../assets/images/ceo.jpg";
+import president from "../assets/images/president.jpg";
+import principal from "../assets/images/principal.jpg";
+import director from "../assets/images/director.gif";
 
 export default function committe() {
   return (
@@ -8,37 +12,41 @@ export default function committe() {
         <div className="committe-page-hero-container">
             <Navabar/>
             <div className="committe-page-heading-container">
-            <div className="patrons-container">
-                <h1 className="main-heading">Chief Patrons</h1>
-                <div className="patron-cards-container">
-                    <div className="patron-card">
-                        <h2 className="patron-name">Sree Siddalinga Swamiji</h2>
-                        <h3 className="patron-designation">President</h3>
-                        <h5 className="patron-institute">Sree Siddaganga Education Society, Tumkur</h5>
-                    </div>
+                <div className="patrons-container">
+                    <h1 className="main-heading">Chief Patrons</h1>
+                    <div className="patron-cards-container">
+                        <div className="main-patron-card">
+                            <img className='main-patron-image' src={president} alt="president"/>
+                            <h2 className="main-patron-name">Sree Siddalinga Swamiji</h2>
+                            <h3 className="main-patron-designation">President</h3>
+                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Tumkur</h5>
+                        </div>
 
-                    <div className="patron-card">
-                        <h2 className="patron-name">Dr. M N Channabasappa</h2>
-                        <h3 className="patron-designation">Director</h3>
-                        <h5 className="patron-institute">SIT, Tumkur</h5>
-                    </div>
+                        <div className="main-patron-card">
+                            <img className='main-patron-image' src={director} alt="director"/>
+                            <h2 className="main-patron-name">Dr. M N Channabasappa</h2>
+                            <h3 className="main-patron-designation">Director</h3>
+                            <h5 className="main-patron-institute">SIT, Tumkur</h5>
+                        </div>
 
-                    <div className="patron-card">
-                        <h2 className="patron-name">Dr. Shivakumaraiah</h2>
-                        <h3 className="patron-designation">CEO</h3>
-                        <h5 className="patron-institute">SIT, Tumkur</h5>
+                        <div className="main-patron-card">
+                            <img className='main-patron-image' src={ceo} alt="ceo"/>
+                            <h2 className="main-patron-name">Dr. Shivakumaraiah</h2>
+                            <h3 className="main-patron-designation">CEO</h3>
+                            <h5 className="main-patron-institute">SIT, Tumkur</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
         <div className="patrons-container">
             <h1 className="patrons-heading">General Chair</h1>
             <div className="patron-cards-container">
-                <div className="patron-card">
-                    <h2 className="patron-name">Dr. S V Dinesh</h2>
-                    <h3 className="patron-designation">Principal</h3>
-                    <h5 className="patron-institute">SIT, Tumkur</h5>
+                <div className="main-patron-card">
+                    <img className='main-patron-image' src={principal} alt="principal"/>
+                    <h2 className="main-patron-name">Dr. S V Dinesh</h2>
+                    <h3 className="main-patron-designation">Principal</h3>
+                    <h5 className="main-patron-institute">SIT, Tumkur</h5>
                 </div>
             </div>
         </div>
