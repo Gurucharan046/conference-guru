@@ -18,9 +18,9 @@ function Navabar() {
     window.addEventListener("scroll",changeBackground)
 
     return (
-        <div>
+        <div className='navbar-container'>
             <motion.nav
-            animate={{y:navVisible?"0px":"2rem"}}
+            animate={{y:navVisible?"1rem":"0rem"}}
             transition={{type:"tween"}}
             className={navVisible?"navbar_main-container navbar_active":"navbar_main-container"}>
                 <ul className='navbar_menu-link-wrapper'>

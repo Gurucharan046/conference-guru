@@ -4,8 +4,9 @@ import {motion} from "framer-motion"
 import Navabar from '../components/navbar/navabar'
 import {BsCalendarCheck} from "react-icons/bs"
 import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
-
-
+import sitLogo from "../assets/images/sit-removebg-preview.png";
+import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removebg-preview.png";
+import sitCampus from "../assets/images/1626788029037.jpg"
 
 function Home() {
   return (
@@ -13,12 +14,30 @@ function Home() {
 
       <div className="home_hero-wrapper">
         <div className="home_hero-container">
-          <Navabar/>
+          <div className="navbar-wrapper">
+            <Navabar/>
+          </div>
+          
           <div className="home_conference-details-wrapper">
+
             <div className="home_conference-details-container">
+
+              <div className="collage-images-container">
+                <div className="h_sit-logo-wrapper">
+                  <img src={sitLogo} alt="" />
+                </div>
+                <div className="h_swamiji-wrapper">
+                  <img src={siddagngaSwamiji} alt="" />
+                </div>
+              </div>
+
               <div className="home_collage-name">
-                <h2>Siddaganga Institute of Technology, Tumkur</h2>
-                <h3>Association of Electrical Sciences</h3>
+                <div className="name-wrapper">
+                  <div className="collage-details">
+                    <h2>Siddaganga Institute of Technology, Tumkur</h2>
+                    <h3>Association of Electrical Sciences</h3>
+                  </div>
+                </div>
                 <div className="home_conference-name">
                   <h2>International Conference on Smart Systems for applications in <span>Electrical Sciences</span></h2>
                 </div>
@@ -28,6 +47,16 @@ function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="sit-image-wrapper">
+        <div className="sit-wrapper">
+          <div className="sit-campus-container">
+            <h2>SIT Campus</h2>
+          </div>
+          <div className="sit-image-container">
+            <img src={sitCampus} alt="" />
           </div>
         </div>
       </div>
@@ -215,7 +244,7 @@ function Home() {
         </div>
       </div>
       <div className='footer'>
-
+      
       </div>
     </div>
   )
