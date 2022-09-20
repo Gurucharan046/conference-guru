@@ -60,6 +60,32 @@ function Home() {
           </div>
         </div>
       </div>
+      
+        <div className="about-the-confenrence-wrapper">
+          <div className="about-the-confenrence-container">
+            <div className="about-conf-heading">
+              <h2>About Conference</h2>
+            </div>
+            <div className="conf-para-container">
+              <div className="confrence-para-1">
+                <p>
+                  International Conference on Smart systems for applications in Electrical Sciences, addresses  
+                  many diversified specialized areas like Autonomous 
+                  Vehicles, Wireless Communication, AI and ML applications, Secure Communication, IoT/Industry 4.0, Networks & Security, VLSI & 
+                  FPGA, High Voltage, Power Systems, Drives & Control, Biomedical, Robotics Systems, Signal & Image processing, Control & Automation, etc.
+                </p>
+              </div>
+              <div className="confrence-para-2">
+                <p>
+                  It will be held during July 7th and 8th 2023. The conference will feature plenary talks by distin-guished researchers and technologists as well as contributed papers from academics and industry professionals. 
+                  ISSES 2023 is a platform for technologists and researchers from academia and industry across 
+                  the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers Online/in Virtual mode.
+                </p>
+              </div>
+          </div>
+        </div>
+        </div>
+
       <div className="home_tracks-wrapper">
           <div className="track-heading">
             <h2>Tracks</h2>
