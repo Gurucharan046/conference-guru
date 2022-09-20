@@ -29,6 +29,7 @@ function Navabar() {
                     <li><NavLink to="/Paper-Submission">Paper Submission</NavLink></li>
                     <li><NavLink to="/Registration">Registration</NavLink></li>
                     <li><NavLink to='/Contact-us'>Contact Us</NavLink></li>
+                    <li><NavLink to='/about'>About Us</NavLink></li>
                 </ul>
             </motion.nav>
         </div>

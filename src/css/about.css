@@ -5,6 +5,10 @@
 .about-page-main-container .about-page-hero-container{
     width: 100%;
     height: 100vh;
+    background-image: url("../assets/images/v748-toon-61.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10rem;
 }
 
 .about-page-main-container .about-page-hero-container  .about-page-heading-container{
