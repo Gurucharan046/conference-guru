@@ -1,8 +1,7 @@
 import './App.css';
-import {Route,Routes} from "react-router-dom"
+import {Route, Routes, Navigate} from "react-router-dom"
 import Home from "./routes/home"
 import About from './routes/about';
-import Contactus from './routes/contactus';
 import Committe from './routes/committe';
 
 function App() {
@@ -10,12 +9,13 @@ function App() {
     <div className="App">
       
       <Routes>
+        <Route path="/" element={<Navigate to="/home" replace />}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/Committees" element={<Committe/>}/>
-        <Route path='/Paper-Submission'/>
-        <Route path='/Registration'/>
-        <Route path='/Contact-us'element={<Contactus/>}/>
+        <Route path='/Paper-Submission' element={<Navigate to="/home" replace />}/>
+        <Route path='/Registration' element={<Navigate to="/home" replace />}/>
+        <Route path='/Contact-us' element={<Navigate to="/home" replace />}/>
       </Routes>
     </div>
   );

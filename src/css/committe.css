@@ -4,7 +4,7 @@
 
 .committe-page-main-container .committe-page-hero-container{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url("../assets/images/v748-toon-103.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
 }
 
 .committe-page-main-container .patrons-container .main-heading{
-    padding-top: 30rem;
+    padding-top: 15rem;
     color: #F8669E;
     font-weight: 800;
     font-size:5rem;
@@ -107,5 +107,5 @@
 .committe-page-main-container .committe-container .committe-details{
     font-size: 2rem;
     font-weight: 500;
-    margin: 1.5rem 0;
+    margin: 1.5rem;
 }

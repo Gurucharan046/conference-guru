@@ -98,7 +98,7 @@ export default function committe() {
         </div>
 
         <div className="patrons-container">
-            <h1 className="patrons-heading"></h1>
+            <h1 className="patrons-heading">""</h1>
             <div className="patron-cards-container">
                 <div className="patron-card">
                     <h2 className="patron-name">Dr. Parameshachari B D</h2>
