@@ -10,6 +10,7 @@
     width: 100%;
     z-index: 9999;
 }
+
 .navbar_active{
     background-color: #e6e6e6;
     transition:300ms;
@@ -18,7 +19,8 @@
 .navbar_menu-link-wrapper{
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
+    padding: 1rem 0;
 }
 
 
@@ -29,12 +31,14 @@
     
     
 }
+
 nav a{
     text-decoration: none;
     font-family: 'lato', sans-serif;
     font-size: 2.25rem;
     font-weight:600;
     color: #050514;
+    width: 100%;
 }
 nav a:hover{
     color: orange;
@@ -44,4 +48,16 @@ nav a:hover{
 nav a.active{
     color: orange;
     font-size: 2.25rem;
+}
+.ham-button{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+
+    ul{
+        display: flex;
+    }
+}
+@media only screen and (max-width:480) {
 }

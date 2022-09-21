@@ -9,10 +9,6 @@
     justify-content: space-between;
     align-items:center;
 }
-.navbar-wrapper{
-    height: 15vh;
-}
-
 .home_conference-details-wrapper{
     height: 85vh;
     display: flex;
@@ -23,12 +19,12 @@
     
 }
 .home_conference-details-container{
-    /* flex-direction: column;
+    flex-direction: column;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
 }
@@ -36,6 +32,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 .h_sit-logo-wrapper{
     width: 15%;
@@ -137,6 +134,7 @@
     position: relative;
     margin: 2rem;
     padding: 2rem 0;
+    
 }
 @keyframes key1 {
     0%{
@@ -161,10 +159,12 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 .sit-campus-container{
     /* height: 50vh; */
     position: relative;
+    /* flex: 1 1 20%; */
 }
 .sit-campus-container::before{
     content: "";
@@ -183,7 +183,7 @@
     color: #EE0034;
 }
 .sit-image-container{
-    width: 75%;
+    /* flex: 1 1 80%; */
     padding: 2rem 1rem;
 }
 .sit-image-wrapper img{
@@ -213,6 +213,19 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 7rem;
+    position: relative;
+    background-image: url("../assets/images/background-img-1.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: top 0 right -20px;
+    
+
+}
+.about-the-confenrence-wrapper::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    
 }
 .about-the-confenrence-container{
     width: 90%;
@@ -298,10 +311,14 @@
     
 }
 .tracks-card-wrappers{
-    display: grid;
+    /* display: grid;
     grid-template-rows:repeat(autofill,1fr);
     grid-template-columns:repeat(autofill,1fr);
-    grid-gap:3.5rem;
+    grid-gap:3.5rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 .tracks-card-wrappers .track-container{
     padding: 2rem 0  2rem 2.8rem;
@@ -351,29 +368,58 @@
 .track1{
     grid-row:1/2;
     grid-column: 2/5;
-    
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
 }
 
 .track2{
     grid-row:1/2;
     grid-column: 5/8;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
 }
 .track3{
     grid-row:1/2;
     grid-column: 8/11;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
 }
 .track4{
     grid-row:2/3;
     grid-column: 2/5;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
 }
 .track5{
     grid-row:2/3;
     grid-column: 5/8;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
 }
 .track6{
     grid-row:2/3;
     grid-column: 8/11;
     position: relative;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
     
 }
 .track6::before{
@@ -404,16 +450,31 @@
 .track7{
     grid-row:3/4;
     grid-column: 2/5;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
 }
 .track8{
     grid-row:3/4;
     grid-column: 5/8;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
     
 }
 .track9{
     grid-row:3/4;
     grid-column: 8/11;
     position: relative;
+    flex-basis: 35rem;
+    /* flex-grow: 1; */
+    align-self: normal;
+    flex-shrink:1;
+    margin: 1rem;
     
 }
 .track9::before{
@@ -427,7 +488,7 @@
     position: absolute;
     top: 0;
     right: -20%;
-    animation: key9 10  s infinite;
+    animation: key9 10s infinite;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 @keyframes key9 {
@@ -454,6 +515,7 @@
     font-weight: 600;
     letter-spacing: 0.07rem;
     position: relative;
+    margin-top:2rem;
 }
 .imp-date-heading h2::after{
     content: "";
@@ -479,7 +541,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    flex-wrap: wrap-reverse;
     
 }
 
@@ -488,15 +550,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 .imp-image-container img{
     width: 100%;
     height: 100%;
+    padding: 2rem 0;
 }
 
 .imp-dates-details ul{
-
+    display: flex;
+    flex-direction: column;
 }
 .imp-dates-details ul li{
     list-style-type: disc;
@@ -506,5 +571,14 @@
 .footer{
     height: 50px;
     background-color: #474747;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h2{
+    color: #fff;
+}
+@media only screen and (max-width:768px){
+}
+@media only screen and (max-width:480px){
 }

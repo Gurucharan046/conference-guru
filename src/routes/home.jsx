@@ -14,10 +14,7 @@ function Home() {
 
       <div className="home_hero-wrapper">
         <div className="home_hero-container">
-          <div className="navbar-wrapper">
             <Navabar/>
-          </div>
-          
           <div className="home_conference-details-wrapper">
 
             <div className="home_conference-details-container">
@@ -98,8 +95,7 @@ function Home() {
               // animate={{y:"0px"}}
               // transition={{type:"tween",duration:1.25}}
               // initial={{y:"-9rem"}}
-              className="track-container track1"
-              >
+              className="track-container track1">
               <div className="track-name">
                 <p>Track 1: Wireless Communication</p>
               </div>
@@ -255,9 +251,9 @@ function Home() {
       <div className="important-dates-container">
         
         <div className="imp-dates-details">
-        <div className="imp-date-heading">
-          <h2>Important Dates</h2>
-        </div>
+          <div className="imp-date-heading">
+            <h2>Important Dates</h2>
+          </div>
           <ul>
             <li>Submission Portal Opens: 1st January 2023</li>
             <li>Full Paper Submission Deadline: 1st April 2023</li>
@@ -270,7 +266,7 @@ function Home() {
         </div>
       </div>
       <div className='footer'>
-      
+        <h2>Copyrights by IEEE SIT SB</h2>
       </div>
     </div>
   )
