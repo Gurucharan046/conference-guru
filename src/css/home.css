@@ -575,6 +575,11 @@
     justify-content: center;
     align-items: center;
 }
+.footer .copyright{
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: orange;
+}
 .footer h2{
     color: #fff;
 }

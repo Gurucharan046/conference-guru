@@ -3,6 +3,7 @@ import "../css/home.css"
 import {motion} from "framer-motion"
 import Navabar from '../components/navbar/navabar'
 import {BsCalendarCheck} from "react-icons/bs"
+import {MdOutlineCopyright} from "react-icons/md"
 import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
 import sitLogo from "../assets/images/sit-removebg-preview.png";
 import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removebg-preview.png";
@@ -266,6 +267,7 @@ function Home() {
         </div>
       </div>
       <div className='footer'>
+        <MdOutlineCopyright className='copyright'/> 
         <h2>Copyrights by IEEE SIT SB</h2>
       </div>
     </div>

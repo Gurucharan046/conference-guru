@@ -5,6 +5,7 @@ import ceo from "../assets/images/ceo.jpg";
 import president from "../assets/images/president.jpg";
 import principal from "../assets/images/principal.jpg";
 import director from "../assets/images/director.gif";
+import {MdOutlineCopyright} from "react-icons/md"
 
 export default function committe() {
   return (
@@ -199,7 +200,10 @@ export default function committe() {
             </div>
         </div>
 
-        <div className='footer'></div>
+        <div className='footer'>
+            <MdOutlineCopyright className='copyright'/> 
+            <h2>Copyrights by IEEE SIT SB</h2>
+        </div>
     </section>
   )
 }
