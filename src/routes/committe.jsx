@@ -126,7 +126,7 @@ export default function committe() {
                 </div>
 
                 <div className="patron-card">
-                    <h2 className="patron-name">Dr. K Vishwanath</h2>
+                    <h2 className="patron-name">Dr. K Viswanath</h2>
                     <h3 className="patron-designation">Professor, Dept. of ETE, SIT, Tumkur</h3>
                     <h5 className="patron-institute">Publicity Chair</h5>
                 </div>
