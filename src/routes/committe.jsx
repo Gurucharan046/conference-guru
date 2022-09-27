@@ -27,7 +27,7 @@ export default function committe() {
                             <img className='main-patron-image' src={secretary} alt="secretary"/>
                             <h2 className="main-patron-name">Shri T K Nanjundappa </h2>
                             <h3 className="main-patron-designation">Secretary</h3>
-                            <h5 className="main-patron-institute">SIT, Tumkur</h5>
+                            <h5 className="main-patron-institute">Sree Siddaganga Education Society, Tumkur</h5>
                         </div>
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={director} alt="director"/>
@@ -115,7 +115,7 @@ export default function committe() {
                 </div>
                 <div className="patron-card">
                     <h2 className="patron-name">Dr. Parameshachari B D</h2>
-                    <h3 className="patron-designation">IEEE Execom Member</h3>
+                    <h3 className="patron-designation">IEEE Execom Member, Bangalore Section</h3>
                     <h5 className="patron-institute">Technical Co-Chair</h5>
                 </div>
 
@@ -127,7 +127,7 @@ export default function committe() {
 
                 <div className="patron-card">
                     <h2 className="patron-name">Dr. Divya M G</h2>
-                    <h3 className="patron-designation">IEEE Execom Member</h3>
+                    <h3 className="patron-designation">IEEE Execom Member,Bangalore Section</h3>
                     <h5 className="patron-institute">Publication Co-Chair</h5>
                 </div>
 
@@ -140,8 +140,8 @@ export default function committe() {
                 <div className="patron-card">
                 {/* Dr. Mallikarjun B C */}
                 {/* Associate Professor, Dept. of ETE,  */}
-                    <h2 className="patron-name">Dr. Mallikarjun</h2>
-                    <h3 className="patron-designation"> Associate Professor, Dept. of ETE, SIT, Tumkur</h3>
+                    <h2 className="patron-name">Prof. T O Geeta Rani</h2>
+                    <h3 className="patron-designation"> Associate Professor, Dept. of ECE, SIT, Tumkur</h3>
                     <h5 className="patron-institute">Finance Chair</h5>
                 </div>
             </div>
@@ -190,7 +190,7 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Sathyanarayana S V., JNNCE, Shimoga</h3>
                 <h3 className="committe-details">Dr. Lakshmi Shrinivasan, MSRIT, Bangalore</h3>
                 <h3 className="committe-details">Dr. Jayashri Kulkarni, VIIT, Kondhawa</h3>
-                <h3 className="committe-details">Dr. Yahsvanth N, MIT, Manipal</h3>
+                <h3 className="committe-details">Dr. Yashvanth N, MIT, Manipal</h3>
                 <h3 className="committe-details">Dr. R Kalpana, BMSCE, Bangalore</h3>
                 <h3 className="committe-details">Dr. Suma, BMSCE, Bangalore</h3>
                 <h3 className="committe-details">Mr. Chandrashekar Patil, Cisco Pvt. Ltd., Bangalore</h3>

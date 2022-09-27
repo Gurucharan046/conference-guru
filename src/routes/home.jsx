@@ -260,7 +260,7 @@ function Home() {
             <li>Full Paper Submission Deadline: 1st April 2023</li>
             <li>Acceptance/Rejection Notification: 15th 	May 2023</li>
             <li>Submission of camera ready paper: 25th May 2023</li>
-            <li>Registration opens: 8st June 2023</li>
+            <li>Registration opens: 1st June 2023</li>
           </ul>
         </div>
         <div className="imp-image-container">
