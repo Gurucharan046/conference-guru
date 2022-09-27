@@ -5,6 +5,7 @@ import ceo from "../assets/images/ceo.jpg";
 import president from "../assets/images/president.jpg";
 import principal from "../assets/images/principal.jpg";
 import director from "../assets/images/director.gif";
+import secretary from "../assets/images/TKN.jpg"
 import {MdOutlineCopyright} from "react-icons/md"
 
 export default function committe() {
@@ -22,7 +23,12 @@ export default function committe() {
                             <h3 className="main-patron-designation">President</h3>
                             <h5 className="main-patron-institute">Sree Siddaganga Education Society, Tumkur</h5>
                         </div>
-
+                        <div className="main-patron-card">
+                            <img className='main-patron-image' src={secretary} alt="secretary"/>
+                            <h2 className="main-patron-name">Shri T K Nanjundappa </h2>
+                            <h3 className="main-patron-designation">Secretary</h3>
+                            <h5 className="main-patron-institute">SIT, Tumkur</h5>
+                        </div>
                         <div className="main-patron-card">
                             <img className='main-patron-image' src={director} alt="director"/>
                             <h2 className="main-patron-name">Dr. M N Channabasappa</h2>
@@ -61,8 +67,8 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. R Srikantaswamy, Professor, Dept. of ECE, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. K V Suresh, Professor, Dept. of  ECE, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. K Vishwanath, Professor, Dept., of  ETE, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. Siddeshwara Prasad, Professor, Dept. of EIT, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. K Viswanath, Professor, Dept. of  ETE, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. Siddeswara Prasad, Professor, Dept. of EIT, SIT, Tumkur</h3>
             </div>
         </div>
 
@@ -76,6 +82,7 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Michael G Danikas, Democritus University of Thrace, Xanthi </h3>
                 <h3 className="committe-details">Dr. Raji Sundarajan, Purdue University, West Lafayette</h3>
                 <h3 className="committe-details">Dr. Mariana AmorimFraga, Federal University of Sao Paulo, Brazil</h3>
+                <h3 className="committe-details">Prof. Linga Reddy Cenkeramaddi, University of Agder, Norway</h3>
                 <h3 className="committe-details">Dr. Akhilesh Thyagaturu, Arizona State University, USA</h3>
                 <h3 className="committe-details">Dr. Paavo Alku, Aalto Univ, Finland</h3>
                 <h3 className="committe-details">Mr. Pablo Orduna, CEO, Labsland Spain</h3>
@@ -88,8 +95,8 @@ export default function committe() {
                 <h3 className="committe-details">Dr. K Sreenivasa Rao, IIT Kharagpur</h3>
                 <h3 className="committe-details">Dr. Kaushik Basu, IISc Bangalore</h3>
                 <h3 className="committe-details">Dr. Arun Mahendrakar, IIT Madras</h3>
+                <h3 className="committe-details">Dr. Jayant Mukhyopadhyaya, IIT Kharagpur</h3>
                 <h3 className="committe-details">Dr. T Sreenivas, IISc Bangalore</h3>
-                <h3 className="committe-details">Dr. Lalit Kumar, FNAE</h3>
                 <h3 className="committe-details">Dr. Ajith T Kalghatgi, Former Director, B.E.L</h3>
                 <h3 className="committe-details">Mr. Lokesh Rayasandra Boregowda, Samsung, Bangalore</h3>
                 <h3 className="committe-details">Dr. Lalit Kumar, Fellow, INAE, CEERI</h3>
@@ -101,16 +108,15 @@ export default function committe() {
         <div className="patrons-container">
             <h1 className="patrons-heading">""</h1>
             <div className="patron-cards-container">
+            <div className="patron-card">
+                    <h2 className="patron-name">Dr. Veena Karjigi</h2>
+                    <h3 className="patron-designation">Associate Professor, Dept. of ECE, SIT, Tumkur</h3>
+                    <h5 className="patron-institute">Technical Chair</h5>
+                </div>
                 <div className="patron-card">
                     <h2 className="patron-name">Dr. Parameshachari B D</h2>
                     <h3 className="patron-designation">IEEE Execom Member</h3>
                     <h5 className="patron-institute">Technical Co-Chair</h5>
-                </div>
-
-                <div className="patron-card">
-                    <h2 className="patron-name">Dr. Veena Karjigi</h2>
-                    <h3 className="patron-designation">Associate Professor, Dept. of ECE, SIT, Tumkur</h3>
-                    <h5 className="patron-institute">Technical Chair</h5>
                 </div>
 
                 <div className="patron-card">
@@ -132,8 +138,10 @@ export default function committe() {
                 </div>
 
                 <div className="patron-card">
-                    <h2 className="patron-name">Dr. Mallikarjun B C</h2>
-                    <h3 className="patron-designation">Associate Professor, Dept. of ETE, SIT, Tumkur</h3>
+                {/* Dr. Mallikarjun B C */}
+                {/* Associate Professor, Dept. of ETE,  */}
+                    <h2 className="patron-name">Dr. Mallikarjun</h2>
+                    <h3 className="patron-designation"> Associate Professor, Dept. of ETE, SIT, Tumkur</h3>
                     <h5 className="patron-institute">Finance Chair</h5>
                 </div>
             </div>
@@ -142,21 +150,22 @@ export default function committe() {
         <div className="patrons-container">
             <h1 className="patrons-heading">Technical Program Committee</h1>
             <div className="committe-container">
-                <h3 className="committe-details">Mr. Raghavendra Prasad, IEEE Execom Member</h3>
+                <h3 className="committe-details">Mr. Raghavendra Prasad, IEEE Execom Member Bangalore Section</h3>
+                <h3 className="committe-details">Mr. Ravi Hosamani,  IEEE Execom Member Bangalore Section</h3>
                 <h3 className="committe-details">Dr. Dileep A. D. , IIT Mandi</h3>
                 <h3 className="committe-details">Dr. Veena T., NIT Goa</h3>
                 <h3 className="committe-details">Dr. Deepak K T, IIIT Dharwad</h3>
-                <h3 className="committe-details">Dr. Narendra N. P., Aalto University, Espoo, Finland</h3>
-                <h3 className="committe-details">Dr. Guruprasad	Audience, Bangalore</h3>
+                <h3 className="committe-details">Dr. Narendra N. P., Samsung, Bangalore</h3>
+                <h3 className="committe-details">Dr. Guruprasad, Audience, Bangalore</h3>
+                <h3 className="committe-details">Dr. Anil Kumar Vuppala, IIIT Hyderabad</h3>
                 <h3 className="committe-details">Dr. Veena S, NAL, Bangalore</h3>
                 <h3 className="committe-details">Mr. Dayanand Kumar N C, Samsung</h3>
                 <h3 className="committe-details">Dr. Arnav Bhavsar Vinayak, IIT Mandi</h3>
                 <h3 className="committe-details">Dr. Rajiv Ranjan Sahay, IIT Kharagpur </h3>
                 <h3 className="committe-details">Mr. Indranil Sarkar, Fish and Richardson P. C., Boston, USA</h3>
-                <h3 className="committe-details">Dr. Deepak Dasalukunte	Intel, USA</h3>
+                <h3 className="committe-details">Dr. Deepak Dasalukunte, Intel, USA</h3>
                 <h3 className="committe-details">Dr. Shreyas K V, Apple Inc. USA</h3>
                 <h3 className="committe-details">Dr. Lakshminidhi T, NITK, Suratkal</h3>
-                <h3 className="committe-details">Mr. Ravi Hosamani, KLETU Hubli</h3>
                 <h3 className="committe-details">Dr. Narendra K C, NMIT Nitte</h3>
                 <h3 className="committe-details">Dr. Prasanna Kumar M K, BMSCE Bangalore</h3>
                 <h3 className="committe-details">Dr. H V Kumaraswamy, RVCE Bangalore</h3>
@@ -170,7 +179,6 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Leena Mary, RGIT, Kottayam</h3>
                 <h3 className="committe-details">Dr. Nagarajan T, SSNCE, Chennai</h3>
                 <h3 className="committe-details">Dr. Aravind B N, RIT, Hassan</h3>
-                <h3 className="committe-details">Dr. Leena Mary, RGIT, Kottayam</h3>
                 <h3 className="committe-details">Dr. Vikram C M, Samsung, Bangalore</h3>
                 <h3 className="committe-details">Dr. Sundara Rajan, CPRI, Bangalore</h3>
                 <h3 className="committe-details">Dr. Suresh Jangamashetty, BEC, Bagalkot</h3>

@@ -41,7 +41,7 @@ function Home() {
                 </div>
                 <div className="home_date-container">
                   <BsCalendarCheck className='calender-icon'/>
-                  <p>JULY 7th and 8th</p>
+                  <p>7th & 8th JULY 2023</p>
                 </div>
               </div>
             </div>
@@ -75,9 +75,9 @@ function Home() {
               </div>
               <div className="confrence-para-2">
                 <p>
-                  It will be held during July 7th and 8th 2023. The conference will feature plenary talks by distin-guished researchers and technologists as well as contributed papers from academics and industry professionals. 
+                  It will be held during  7th and 8th July 2023. The conference will feature plenary talks by distinguished researchers and technologists as well as contributed papers from academics and industry professionals. 
                   ISSES 2023 is a platform for technologists and researchers from academia and industry across 
-                  the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers Online/in Virtual mode.
+                  the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers in hybrid mode.
                 </p>
               </div>
           </div>
@@ -88,7 +88,7 @@ function Home() {
           <div className="track-heading">
             <h2>Tracks</h2>
           </div>
-        <div className="home_tracks-containers">
+         <div className="home_tracks-containers">
           
           <div className="tracks-card-wrappers">
 
@@ -259,6 +259,7 @@ function Home() {
             <li>Submission Portal Opens: 1st January 2023</li>
             <li>Full Paper Submission Deadline: 1st April 2023</li>
             <li>Acceptance/Rejection Notification: 15th 	May 2023</li>
+            <li>Submission of camera ready paper: 25th May 2023</li>
             <li>Registration opens: 8st June 2023</li>
           </ul>
         </div>
