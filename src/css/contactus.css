@@ -24,6 +24,10 @@
   margin: 5rem 0;
   font-weight: 700;
 }
+.contact-highlight
+{
+  font-size: 6rem;
+}
 
 .contact-page-main-container .contact-us-heading .contact-highlight{
   color: rgb(255, 153, 0);

@@ -1,0 +1,51 @@
+*{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 2.05rem;
+}
+.reg-info-part
+{
+    color: orange;
+    font-weight:900 ;
+}
+.detailsShower
+{
+  margin-left: 3%;
+  padding-top: 8%;
+}
+.reg-info-heading,.reg-info-part
+{
+      font-weight: bold;
+      font-size: 2.75rem;
+      padding-top: 4.25rem;
+      margin-left: 250px;
+      margin-left: -8% ;
+      
+}
+.reg-info-part{
+  margin-left:5px ;
+  margin-right:5px;
+}
+table
+{
+  margin-left:19%;
+  width: 55%;
+  border-radius: 5%;
+  height: 50%;
+}
+.reg-table-details , th, td
+{
+  border: 1.5px solid rgb(43, 79, 105,0.5) ;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+.col-head
+{
+font-weight: bold;
+}
+th,td
+{
+     width: 250px;
+     height: 2.4rem;
+     text-align: center;
+}

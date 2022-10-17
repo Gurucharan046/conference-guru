@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/about.css"
+import "../pages/registrationInfo/registrationInfo"
 import Navabar from '../components/navbar/navabar'
 import {MdOutlineCopyright} from "react-icons/md"
 
