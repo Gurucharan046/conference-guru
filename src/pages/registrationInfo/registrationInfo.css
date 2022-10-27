@@ -34,10 +34,17 @@
 .text-head
 {
   padding-top: 10px;
+  text-align: center;
+}
+.f-aurth
+{
+  border-right: none;
 }
 .two-row-col-1
 {
   border-bottom: 0px;
+  padding: 10px;
+  text-align: center;
 }
 .two-row-col-2
 {
@@ -69,6 +76,10 @@ font-weight: bold;
 .offline-head
 {
   padding-top: 7rem;
+}
+.f-aurth-2
+{
+  border: none;
 }
 th,td
 {
