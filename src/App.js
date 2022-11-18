@@ -5,7 +5,7 @@ import About from './routes/about';
 import Committe from './routes/committe';
 import Contactus from './routes/contactus';
 import Registration from './routes/registration';
-import Papersubmission from './routes/papersubmission';
+import CallForPapers from './routes/callForPapers';
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
         <Route path="/home" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/Committees" element={<Committe/>}/>
-        <Route path='/Paper-Submission' element={<Papersubmission/>}/>
+        <Route path='/call-for-papers' element={<CallForPapers/>}/>
         <Route path='/Registration' element={<Registration/>}/>
         <Route path='/Contact-us' element={<Contactus/>}/>
       </Routes>

@@ -2,6 +2,7 @@ import React from 'react'
 import "../css/home.css"
 import {motion} from "framer-motion"
 import Navabar from '../components/navbar/navabar'
+import Marquee from 'react-fast-marquee'
 import {BsCalendarCheck} from "react-icons/bs"
 import {MdOutlineCopyright} from "react-icons/md"
 import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
@@ -19,6 +20,15 @@ function Home() {
           <div className="home_conference-details-wrapper">
 
             <div className="home_conference-details-container">
+              <Marquee gradient={false} speed={50} pauseOnHover={true}>
+                <div className="home-confrence-type-marquee-container">
+                  <p>Hybrid Conference</p>
+                  <p>Hybrid Conference</p>
+                  <p>Hybrid Conference</p>
+                  <p>Hybrid Conference</p>
+                </div>
+              </Marquee>
+              
 
               <div className="collage-images-container">
                 <div className="h_sit-logo-wrapper">
@@ -32,7 +42,7 @@ function Home() {
               <div className="home_collage-name">
                 <div className="name-wrapper">
                   <div className="collage-details">
-                    <h2>Siddaganga Institute of Technology, Tumkur</h2>
+                    <h2>Siddaganga Institute of Technology, Tumakuru</h2>
                     <h3>Association of Electrical Sciences</h3>
                   </div>
                 </div>
@@ -44,6 +54,11 @@ function Home() {
                   <p>7th & 8th JULY 2023</p>
                 </div>
               </div>
+              <Marquee gradient={false} speed={40} pauseOnHover={true}>
+                <div className="home-confrence-type-marquee-container">
+                  <p>All accepted and presented papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p>
+                </div>
+              </Marquee>
             </div>
           </div>
         </div>

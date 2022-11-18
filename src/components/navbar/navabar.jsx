@@ -32,7 +32,7 @@ function Navabar() {
                 <ul className='navbar_menu-link-wrapper'>
                     <li><NavLink to="/home">Home</NavLink></li>
                     <li><NavLink to="/Committees">Committees</NavLink></li>
-                    <li><NavLink to="/Paper-Submission">Paper Submission</NavLink></li>
+                    <li><NavLink to="/call-for-papers">Call for papers</NavLink></li>
                     <li><NavLink to="/Registration">Registration</NavLink></li>
                     <li><NavLink to='/Contact-us'>Contact Us</NavLink></li>
                     <li><NavLink to='/about'>About Us</NavLink></li>

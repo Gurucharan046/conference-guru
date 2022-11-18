@@ -3,7 +3,7 @@
     justify-content:center;
     align-items: center;
     background-color:transparent;
-    height: 15vh;
+    height: 10vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,14 +20,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1rem 0;
+    padding: 0rem 0;
 }
 
 
 .navbar_main-container ul li{
     list-style-type: none;
     text-decoration: none;
-    padding: 3rem 4rem;
+    padding: 0rem 4rem;
     
     
 }
