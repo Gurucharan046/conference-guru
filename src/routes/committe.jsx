@@ -61,13 +61,13 @@ export default function committe() {
         <div className="patrons-container">
             <h1 className="patrons-heading">Organizing Committee</h1>
             <div className="committe-container">
-                <h3 className="committe-details">Dr. R Kumaraswamy, Professor and Head, Dept. of ECE, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor and Head, Dept. of ETE, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. K V Suresh, Professor and Head, Dept. of  ECE, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. K Viswanath, Professor and Head, Dept. of  ETE, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. H M Kalpana, Professor and Head, Dept. of EIT, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. Rashmi, Professor and Head, Dept. of EEE, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. R Srikantaswamy, Professor, Dept. of ECE, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. K V Suresh, Professor, Dept. of  ECE, SIT, Tumkur</h3>
-                <h3 className="committe-details">Dr. K Viswanath, Professor, Dept. of  ETE, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. R Kumaraswamy, Professor, Dept. of ECE, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr. K C Narasimhamurthy, Professor, Dept. of ETE, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. Siddeswara Prasad, Professor, Dept. of EIT, SIT, Tumkur</h3>
             </div>
         </div>

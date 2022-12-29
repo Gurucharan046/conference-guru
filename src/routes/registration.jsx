@@ -6,7 +6,7 @@ import {MdOutlineCopyright} from "react-icons/md"
 export default function registration() {
     return (
         <section className='about-page-main-container'>
-            <div className="about-page-hero-container">
+            <div className="registration-page-hero-container">
                 <Navabar/>
                 {/* <div className="about-page-heading-container">
                     <h1 className="about-us-heading">  <span className='about-highlight'>To Be </span> Updated</h1>
