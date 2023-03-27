@@ -30,7 +30,7 @@ function Navabar() {
             className={navVisible?"navbar_main-container navbar_active":"navbar_main-container"} >
 
                 <ul className='navbar_menu-link-wrapper'>
-                    <li><NavLink to="/home">Home</NavLink></li>
+                    <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/Committees">Committees</NavLink></li>
                     <li><NavLink to="/call-for-papers">Call for papers</NavLink></li>
                     <li><NavLink to="/Registration">Registration</NavLink></li>
