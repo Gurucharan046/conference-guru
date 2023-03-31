@@ -62,8 +62,8 @@ function Home() {
               <br/>
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
-                  <p>Paper Submission deadline extended till 15th April 2023</p>
-                  <p>Paper Submission deadline extended till 15th April 2023</p>
+                  <p>Paper Submission deadline extended till 15th April 2023.</p>
+                  <p>Paper Submission deadline extended till 15th April 2023.</p>
                 </div>
               </Marquee>
             </div>
