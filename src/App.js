@@ -13,12 +13,13 @@ function App() {
       <Routes>
         {/* <Route path="/" element={<Navigate to="/home" replace />}/> */}
         <Route path="/" element={<Home/>}/>
-        <Route path="/home" element={<Home/>}/>
+        {/* <Route path="/home" element={<Home/>}/> */}
         <Route path="/about" element={<About/>}/>
         <Route path="/Committees" element={<Committe/>}/>
         <Route path='/call-for-papers' element={<CallForPapers/>}/>
         <Route path='/Registration' element={<Registration/>}/>
         <Route path='/Contact-us' element={<Contactus/>}/>
+        <Route path='/*' element={<Home/>}/>
       </Routes>
     </div>
   );

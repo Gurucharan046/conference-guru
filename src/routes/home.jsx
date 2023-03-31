@@ -59,6 +59,13 @@ function Home() {
                   <p>All accepted and presented papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p>
                 </div>
               </Marquee>
+              <br/>
+              <Marquee gradient={false} speed={40} pauseOnHover={true}>
+                <div className="home-confrence-type-marquee-container">
+                  <p>Paper Submission deadline extended till 15th April 2023</p>
+                  <p>Paper Submission deadline extended till 15th April 2023</p>
+                </div>
+              </Marquee>
             </div>
           </div>
         </div>
@@ -272,8 +279,8 @@ function Home() {
           </div>
           <ul>
             <li>Submission Portal Opens: 1st January 2023</li>
-            <li>Full Paper Submission Deadline: 1st April 2023</li>
-            <li>Acceptance/Rejection Notification: 15th 	May 2023</li>
+            <li>Full Paper Submission Deadline: 15th April 2023</li>
+            <li>Acceptance/Rejection Notification: 15th May 2023</li>
             <li>Submission of camera ready paper: 25th May 2023</li>
             <li>Registration opens: 1st June 2023</li>
           </ul>
