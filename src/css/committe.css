@@ -109,3 +109,19 @@
     font-weight: 500;
     margin: 1.5rem;
 }
+.hard-dline
+{
+     color: white;
+     padding: 4px;
+     margin-left: 10px;
+     border: 1px solid #ff6666;
+     border-radius: 6%;
+     width:100px;
+     animation: fadeIn 2s;
+     animation-iteration-count: infinite;
+     background: #fd5454;
+}
+@keyframes fadeIn {
+    0% {opacity: 2;animation-delay: 4s;}
+    100% {opacity: 1;color: #ff6666;background: white;}
+ } 

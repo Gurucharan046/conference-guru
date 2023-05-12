@@ -1,0 +1,39 @@
+body
+{
+     background-image: url('../assets/images/rm380-16.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+     overflow-y: scroll;
+     overflow-x: hidden;
+     margin-left: 2%;
+
+}
+.step{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+.head
+{
+    margin-top: 10%;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+.images,.step
+{
+   display: inline;
+   margin-left: 10%;
+}
+.images p{
+    font-family: "poppins";
+    font-size: 2.6rem;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+.image
+{
+     width: 50%;
+     height: 60%;
+}

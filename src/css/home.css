@@ -595,6 +595,30 @@
     margin: 0 1rem;
     color: orange;
 }
+.web-link
+{
+     padding-bottom: 2rem;
+}
+.web-link p
+{
+       font-size: 2.25rem;
+}
+#ic-link
+{
+    width: 85%;
+    font-size: 2rem;
+    display: inline;
+    line-height: 0.9;
+
+    letter-spacing: 0.08rem;
+    color: blue;
+    font-weight: 500;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    margin-left: 0.52rem;
+
+}
+
 .footer h2{
     color: #fff;
 }

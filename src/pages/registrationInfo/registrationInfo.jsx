@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import {NavLink} from "react-router-dom"
 import {motion} from "framer-motion"
 import "../registrationInfo/registrationInfo.css"
+import {HiOutlineArrowSmRight} from "react-icons/hi"
 function RegistrationInfo()
 {
   return(
@@ -44,10 +45,7 @@ function RegistrationInfo()
         <td className='col-head two-row-col-1 text-head'>Attendees</td>
         <td className='last-row'>Rs. 2000</td>
       </tr>
-    </table>
-
-   
-  
+    </table> 
   </div>
   )   
 }

@@ -1,0 +1,80 @@
+.no-show
+{
+    display: none;
+}
+.show-div-1,.show-div-2,.indian-author
+{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 33%;
+    align-items: center;
+}
+h3
+{
+     font-size: 2.4rem;
+}
+.indian-author
+{
+    margin-top: 10px;
+}
+.yes
+{
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #89E88C;
+    color: white;
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 2rem;
+    transition-property: background-color color border;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 350ms;
+}
+.no
+{
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #EE0034;;
+    color: white;
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 2rem;
+    transition-property: background-color color border;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 350ms;
+}
+.aca-exp
+{
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #5793FA;
+    color: white;
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 2rem;
+    transition-property: background-color color border;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 350ms;
+}
+.ind-exp
+{
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color:#efe55a;
+    color: white;
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 2rem;
+    transition-property: background-color color border;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 350ms;
+}

@@ -53,6 +53,8 @@ function Home() {
                   <BsCalendarCheck className='calender-icon'/>
                   <p>7th & 8th JULY 2023</p>
                 </div>
+                <div className="web-link"> <p>ICSSES is listed in the IEEE Conference Search/Call for Papers:
+<a target='_blank' id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a></p></div>
               </div>
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
@@ -62,8 +64,8 @@ function Home() {
               <br/>
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
-                  <p>Paper Submission deadline extended till 15th April 2023.</p>
-                  <p>Paper Submission deadline extended till 15th April 2023.</p>
+                  <p>Paper Submission deadline extended till 15th May 2023.</p>
+                  <p>Paper Submission deadline extended till 15th May 2023.</p>
                 </div>
               </Marquee>
             </div>
@@ -86,7 +88,16 @@ function Home() {
             <div className="about-conf-heading">
               <h2>About Conference</h2>
             </div>
+            {/* <div className="conf-url">
+                <a href="">ICSSES is listed in the IEEE Conference Search/Call for Papers: </a>
+              </div> */}
             <div className="conf-para-container">
+            <div className="confrence-para-1">
+                <p>
+
+                
+                </p>
+              </div>
               <div className="confrence-para-1">
                 <p>
                   International Conference on Smart systems for applications in Electrical Sciences, addresses  
@@ -279,10 +290,11 @@ function Home() {
           </div>
           <ul>
             <li>Submission Portal Opens: 1st January 2023</li>
-            <li>Full Paper Submission Deadline: 15th April 2023</li>
-            <li>Acceptance/Rejection Notification: 15th May 2023</li>
-            <li>Submission of camera ready paper: 25th May 2023</li>
-            <li>Registration opens: 1st June 2023</li>
+            <li>Full Paper Submission Deadline: 15th May 2023<span className='hard-dline'> Hard Deadline</span></li>
+            <li>Acceptance/Rejection Notification: 5th June 2023</li>
+            <li>Submission of camera ready paper: 10th June 2023</li>
+            <li>Registration opens: 10th June 2023</li>
+            <li>Conference dates: 7th, 8th July 2023</li>
           </ul>
         </div>
         <div className="imp-image-container">
