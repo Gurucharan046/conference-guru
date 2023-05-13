@@ -78,3 +78,19 @@ h3
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition-duration: 350ms;
 }
+
+@media only screen and (max-width: 768px){
+    .payment-step-details {
+        padding: 5rem 0rem;
+        margin: 0 1.5rem;
+    }
+
+    .payment-image-container{
+        flex-direction: column;
+    }
+
+    .payment-image-1, .payment-image-2{
+        margin: 2rem 0 !important;
+        text-align: center;
+    }
+}

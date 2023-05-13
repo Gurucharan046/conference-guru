@@ -65,6 +65,8 @@ body {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 0 2rem;
 }
 
 
@@ -78,7 +80,7 @@ body {
 
 .payment-image-2{
     max-width: 50rem;
-    height: auto;
+    height: 60rem;
     margin: 0 1rem;
     object-fit: contain;
 }

@@ -55,7 +55,7 @@ nav a.active{
 
 @media only screen and (max-width:768px){
 
-    ul{
+    ul.navbar_menu-link-wrapper{
         display: flex;
     }
 }
