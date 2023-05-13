@@ -1,62 +1,84 @@
-body
-{
-     background-image: url('../assets/images/rm380-16.jpg');
-     background-size: cover;
-     background-attachment: fixed;
-     overflow-y: scroll;
-     overflow-x: hidden;
-     margin-left: 2%;
-
+body {
+    background-image: url('../assets/images/rm380-16.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
-.step{
+
+.step {
     display: flex;
     flex-direction: row;
     margin-left: 25%;
 }
-.head
-{
+
+.head {
     margin-top: 10%;
     font-family: "poppins";
     font-weight: 600;
     font-size: 3rem;
 
 }
-.images,.step
-{
-   display: inline;
-   margin-left: 10%;
+
+.images,
+.step {
+    display: inline;
+    margin-left: 10%;
 }
-.images p{
+
+.images p {
     font-family: "poppins";
     font-size: 2.6rem;
     margin-top: 10px;
     margin-left: 1px;
 }
-.image
-{
-     width: 50%;
-     height: 60%;
+
+.image {
+    width: 50%;
+    height: 60%;
 }
-.payment-step-details
-{
-       list-style: none;
-       margin-top: 10%;
+
+.payment-step-details {
+    list-style: none;
+    margin-top: 10%;
 }
-.step-detail 
-{
-       font-family: "poppins";
-       font-size: 2.6rem;
-       font-weight: 600;
+
+.step-detail {
+    font-family: "poppins";
+    font-size: 2.6rem;
+    font-weight: 600;
 }
-.step-detail a
-{
+
+.step-detail a {
     margin-left: 10px;
     font-size: 2.6rem;
     background: lightpink;
 }
-.note
-{
-         font-family: "poppins";
-         background: rgb(255, 255, 132);
-         font-size: 2.6rem;
+
+.note {
+    font-family: "poppins";
+    background: rgb(255, 255, 132);
+    font-size: 2.6rem;
+}
+
+.payment-image-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.payment-image-1{
+    max-width: 80rem;
+    height: auto;
+    margin: 0 1rem;
+    object-fit: contain;
+}
+
+
+.payment-image-2{
+    max-width: 50rem;
+    height: auto;
+    margin: 0 1rem;
+    object-fit: contain;
 }

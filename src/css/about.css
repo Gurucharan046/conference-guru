@@ -66,7 +66,8 @@
     background-image: url("../assets/images/v748-toon-61.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin-bottom: 10rem; */
+    display: flex;
+    flex-direction: column;
 }
 
 
