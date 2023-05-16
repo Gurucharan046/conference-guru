@@ -26,7 +26,7 @@ export default function PaymentInfo() {
                 </div>
                 <div className="google-form-main-container">
                     <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
+                    <a href="https://forms.gle/JcLtNB9cKUjCP9fs7" target='blank'>Google Form</a>
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -45,7 +45,7 @@ export default function PaymentInfo() {
                 </div>
                 <div className="google-form-main-container">
                     <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
+                    <a href="https://forms.gle/8tMXsFBCn26jFivC6" target='blank'>Google Form</a>
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -64,7 +64,7 @@ export default function PaymentInfo() {
                 </div>
                 <div className="google-form-main-container">
                     <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
+                    <a href="https://forms.gle/GD6Dp7KYzS5QyeCb8" target='blank'>Google Form</a>
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -83,7 +83,7 @@ export default function PaymentInfo() {
                 </div>
                 <div className="google-form-main-container">
                     <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
+                    <a href="https://forms.gle/9F8pALNTa8wqDYNz5" target='blank'>Google Form</a>
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -102,7 +102,7 @@ export default function PaymentInfo() {
                 </div>
                 <div className="google-form-main-container">
                     <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
+                    <a href="https://forms.gle/P63pYdwKJxGi3Wuy9" target='blank'>Google Form</a>
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -112,7 +112,7 @@ export default function PaymentInfo() {
             </div>
         )
     }
-    else if (num === 6) {
+    else{
         return (
             <div>
                 <Navabar />
@@ -121,67 +121,10 @@ export default function PaymentInfo() {
                 </div>
                 <div className="google-form-main-container">
                     <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
+                    <a href="https://forms.gle/DjBPREUReKyGJ3396" target='blank'>Google Form</a>
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
-                <div className='footer'>
-                    <MdOutlineCopyright className='copyright' />
-                    <h2>Copyrights by IEEE SIT SB</h2>
-                </div>
-            </div>
-        )
-    }
-    else if (num === 7) {
-        return (
-            <div>
-                <Navabar />
-                <div className='details'>
-                    <RegistrationForm />
-                </div>
-                <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
-                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
-                </div>
-                <div className='footer'>
-                    <MdOutlineCopyright className='copyright' />
-                    <h2>Copyrights by IEEE SIT SB</h2>
-                </div>
-            </div>
-        )
-    }
-    else if (num === 8) {
-        return (
-            <div>
-                <Navabar />
-                <div className='details'>
-                    <RegistrationForm />
-                </div>
-                <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
-                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
-                </div>
-                <div className='footer'>
-                    <MdOutlineCopyright className='copyright' />
-                    <h2>Copyrights by IEEE SIT SB</h2>
-                </div>
-            </div>
-        )
-    }
-    else if (num === 9) {
-        return (
-            <div>
-                <Navabar />
-                <div className='details'>
-                    <RegistrationForm />
-                </div>
-                <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="http://">Google Form</a>
-                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
-                </div>
-                <div className='footer'>
+                <div className='footer pay-footer'>
                     <MdOutlineCopyright className='copyright' />
                     <h2>Copyrights by IEEE SIT SB</h2>
                 </div>

@@ -39,14 +39,17 @@ body {
 }
 
 .payment-step-details {
-    list-style: none;
-    margin-top: 10%;
+    list-style:upper-roman;
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
 
 .step-detail {
     font-family: "poppins";
     font-size: 2.6rem;
     font-weight: 600;
+    text-align: justify;
+    list-style: upper-roman;
 }
 
 .step-detail a {
@@ -61,12 +64,15 @@ body {
     font-size: 2.6rem;
 }
 
-.payment-image-container{
-    max-width: 100%;
+.payment-make-head{
+    max-width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 2rem;
+margin-top: 12rem;
+font-weight: 600;
+font-size: 3.5rem ;
+background: #d4ea48;
 }
 
 

@@ -1,31 +1,22 @@
-import React, { useState } from 'react';
-import "../css/registration.css";
-import "../pages/registrationInfo/registrationInfo";
-import { HiOutlineArrowSmRight } from "react-icons/hi"
-import Navabar from '../components/navbar/navabar'
-import { NavLink } from "react-router-dom"
-import RegistrationInfo from '../pages/registrationInfo/registrationInfo';
-import { MdOutlineCopyright } from "react-icons/md"
-import Questions from '../pages/registrationInfo/questions';
-export default function Registration() {  
-    // const [register, setRegister] = useState(false);
-    // const [indianAuthor, setIndianAuthor] = useState(false);
-    // const [academic, setAcademic] = useState(false);
-    // const [industry, setIndustry] = useState(false);
-    // const [foreign, setForeign] = useState(false);
-    // const [flag, setFlag] = useState(false);
-    // const [flag1, setFlag1] = useState(false);
-    // const [attendee, setAttendee] = useState(false);
-    // const [ieeeMember, setIeeemember] = useState(false);
-    return (
-        <section className='about-page-main-container'>
-            <div className="registration-page-hero-container">
-                <Navabar />
-                {/* <div className="about-page-heading-container">
-                    <h1 className="about-us-heading">  <span className='about-highlight'>To Be </span> Updated</h1>
-                </div> */}
-                <RegistrationInfo />
-                {/* <div className='reg-info-div'>
+import React,{useState} from 'react'
+import {NavLink} from "react-router-dom"
+import {motion} from "framer-motion"
+import "../registrationInfo/questions.css"
+import {HiOutlineArrowSmRight} from "react-icons/hi"
+function Questions()
+{
+    const [register, setRegister] = useState(false);
+    const [indianAuthor, setIndianAuthor] = useState(false);
+    const [academic, setAcademic] = useState(false);
+    const [industry, setIndustry] = useState(false);
+    const [foreign, setForeign] = useState(false);
+    const [flag, setFlag] = useState(false);
+    const [flag1, setFlag1] = useState(false);
+    const [attendee, setAttendee] = useState(false);
+    const [ieeeMember, setIeeemember] = useState(false);
+  return(
+    <div>
+<div className='reg-info-div'>
                     <h3 className='registration-tag'>For Registration</h3>
                     <HiOutlineArrowSmRight size="4rem" />
                     <button className='register-here' onClick={() => setRegister(!register)}>CLICK HERE</button>
@@ -68,13 +59,9 @@ export default function Registration() {
                         <h3 className='question'>Are you a Foreign author? </h3>
                         <NavLink to="/register-here" state={{ number: 9 }}><button className='yes' onClick={() => setIeeemember(true)}>Yes</button></NavLink>
                         <NavLink to="/register-here" state={{ number: 9 }}><button className='no' onClick={() => setIeeemember(false)}>No</button></NavLink>
-                    </div> */}
-                    <Questions/>
+                    </div>
             </div>
-            <div className='footer'>
-                <MdOutlineCopyright className='copyright' />
-                <h2>Copyrights by IEEE SIT SB</h2>
-            </div>
-        </section>
-    )
+  </div>
+  )   
 }
+export default Questions;

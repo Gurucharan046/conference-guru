@@ -9,7 +9,7 @@ import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
 import sitLogo from "../assets/images/sit-removebg-preview.png";
 import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removebg-preview.png";
 import sitCampus from "../assets/images/1626788029037.jpg"
-
+import Questions from '../pages/registrationInfo/questions';
 function Home() {
   return (
     <div>
@@ -72,6 +72,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Questions/>
       <div className="sit-image-wrapper">
         <div className="sit-wrapper">
           <div className="sit-campus-container">
@@ -291,9 +292,9 @@ function Home() {
           <ul>
             <li>Submission Portal Opens: 1st January 2023</li>
             <li>Full Paper Submission Deadline: 15th May 2023<span className='hard-dline'> Hard Deadline</span></li>
-            <li>Acceptance/Rejection Notification: 5th June 2023</li>
-            <li>Submission of camera ready paper: 10th June 2023</li>
-            <li>Registration opens: 10th June 2023</li>
+            <li>Acceptance/Rejection Notification <span className="phase">(PHASE-1)</span> : 15th May 2023</li>
+            <li>Submission of camera ready paper <span className="phase">(PHASE-1)</span> : 20th May 2023</li>
+            <li>Registration <span className="phase">(PHASE-1)</span> : 18th May 2023 to 27th May 2023</li>
             <li>Conference dates: 7th, 8th July 2023</li>
           </ul>
         </div>
