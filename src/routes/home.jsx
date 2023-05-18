@@ -53,9 +53,6 @@ function Home() {
                   <BsCalendarCheck className='calender-icon'/>
                   <p>7th & 8th JULY 2023</p>
                 </div>
-                <div className="home-questions">
-                <Questions/>
-                </div>
                 <div className="web-link"> <p>ICSSES is listed in the IEEE Conference Search/Call for Papers:
 <a target='_blank' id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a></p></div>
               </div>
@@ -75,6 +72,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Questions/>
       <div className="sit-image-wrapper">
         <div className="sit-wrapper">
           <div className="sit-campus-container">
