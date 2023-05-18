@@ -1,11 +1,3 @@
-body {
-    background-image: url('../assets/images/rm380-16.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
 .step {
     display: flex;
     flex-direction: row;
@@ -39,9 +31,8 @@ body {
 }
 
 .payment-step-details {
-    list-style:upper-roman;
-    margin-left: 4rem;
-    margin-top: 2rem;
+    list-style: upper-roman;
+    margin: 2rem 5rem;
 }
 
 .step-detail {
@@ -49,35 +40,34 @@ body {
     font-size: 2.25rem;
     font-weight: 600;
     text-align: justify;
-    list-style: upper-roman;
+    padding: 1rem 0;
 }
 
 .step-detail a {
     margin-left: 10px;
     font-size: 2.6rem;
 }
-.steps 
-{
+
+.steps {
     margin-bottom: 10rem;
 }
+
 .note {
     font-family: "poppins";
     background: rgb(255, 255, 132);
     font-size: 2.6rem;
 }
 
-.payment-make-head{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-margin-top: 12rem;
-font-weight: 600;
-font-size:3.7rem ;
+.payment-make-head {
+    padding: 5rem 0;
+    color: #F8669E;
+    font-weight: 800;
+    font-size:5rem;
+    text-align: center;
 }
 
 
-.payment-image-1{
+.payment-image-1 {
     max-width: 80rem;
     height: auto;
     margin: 0 1rem;
@@ -85,7 +75,7 @@ font-size:3.7rem ;
 }
 
 
-.payment-image-2{
+.payment-image-2 {
     max-width: 50rem;
     height: 60rem;
     margin: 0 1rem;

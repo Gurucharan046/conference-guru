@@ -58,7 +58,7 @@ export default function Papersubmission() {
                 <div className="call-for-papers-about-cfp-wrapper">
                     <div className="call-for-papers-about-cfp-container">
                         <h3>Call For Papers</h3>
-                        <p>
+                        <p style={{fontSize:"2rem"}}>
                             IEEE International Conference on Smart Systems for applications in Electrical Sciences (ICSSES) will be organized on 
                             July 7th and 8th 2023 at Siddaganga Institute of Technology, Tumkur, Karnataka. The main objective of the conference 
                             is to decipher advances and innovations in the field of 6G, IoT, Automation and Automotive Electronics. Original contributions 
@@ -68,7 +68,7 @@ export default function Papersubmission() {
                     </div>
                     <div className="call-for-papers-about-cfp-container">
                         <h3>Paper Submission</h3>
-                        <p>
+                        <p style={{fontSize:"2rem"}}>
                         Papers intended for ICSSES - 2023 should be up to six pages of text. Paper submission must conform to the 
                         format defined in the paper presentation guidelines on the conference webpage. Papers must be submitted via online 
                         paper submission system.
@@ -102,7 +102,7 @@ export default function Papersubmission() {
                 <div className="call-for-papers-track-details-wrapper">
                     <h3>Track Details</h3>
                     <div className="call-for-papers-track-details-container">
-                        <ul>
+                        <ul style={{fontSize:"2rem"}}>
                             <li>Wireless Communication</li>
                             <li>AI and ML applications</li>
                             <li>Secure Communication</li>

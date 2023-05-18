@@ -1,26 +1,21 @@
-* {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 2.05rem;
-}
-
 .reg-info-part {
   color: orange;
   font-weight: 900;
 }
 
 .detailsShower {
-  margin-left: 3%;
-  padding-top: 8%;
+  margin:0 auto;
+  padding: 5rem 0;
 }
 
 .reg-info-heading,
 .reg-info-part {
+  text-align: center;
   font-weight: bold;
   font-size: 2.75rem;
-  padding-top: 4.25rem;
-  margin-left: 250px;
-  margin-left: -8%;
+  padding: 4rem 0;
+  /* margin-left: 250px; */
+  /* margin-left: -8%; */
 
 }
 
@@ -54,15 +49,22 @@
 }
 
 table {
-  margin-left: 19%;
-  width: 55%;
-  border-radius: 5%;
-  height: 50%;
+  /* margin-left: 19%; */
+  /* width: 55%; */
+  /* border-radius: 5%; */
+  /* height: 50%; */
 
 }
 
 td {
   empty-cells: hide;
+}
+
+.reg-table-details{
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 2.05rem;
 }
 
 .reg-table-details,

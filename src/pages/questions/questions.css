@@ -12,11 +12,17 @@
     align-items: center;
 }
 
-.particpation-type .register-link{
-    font-size: 2.25rem;
+.participation-type{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.participation-type .register-link{
+    font-size: 2.5rem;
     padding: 1.5rem 0;
     font-family: "poppins";
     text-decoration: none;
+    font-weight: 500;
 }
 
 .registration-tag {

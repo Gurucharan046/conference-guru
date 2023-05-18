@@ -13,7 +13,7 @@ import payment5 from '../assets/images/payment5.jpg'
 import payment6 from '../assets/images/payment6.jpg'
 export default function RegistrationForm() {
     return (
-        <section className='about-page-main-container'>
+        <section className='payment-page-main-container'>
             <div>
 
                 {/* <div className="about-page-heading-container">
@@ -39,7 +39,7 @@ export default function RegistrationForm() {
                     <img src=-{payment4} className='image' alt="" />
                 </div>
                 <a href="http://erp.sit.ac.in/external.aspx">http://erp.sit.ac.in/external.aspx</a> */}
-                <h2 className="payment-make-head">payment</h2>
+                <h2 className="payment-make-head" style={{paddingTop:"10rem"}}>Payment</h2>
                     <ul className='payment-step-details'>
                         <li className="step-detail">Vist the payment website: http://erp.sit.ac.in/external.aspx</li>
                         <li className="step-detail">Please put your paper id in the Any id no</li>

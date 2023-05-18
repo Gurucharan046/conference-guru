@@ -1,22 +1,22 @@
 import React from 'react'
 import "../css/home.css"
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
 import Navabar from '../components/navbar/navabar'
 import Marquee from 'react-fast-marquee'
-import {BsCalendarCheck} from "react-icons/bs"
-import {MdOutlineCopyright} from "react-icons/md"
+import { BsCalendarCheck } from "react-icons/bs"
+import { MdOutlineCopyright } from "react-icons/md"
 import month from "../assets/images/ce5634d2307b4c27aa12d315b1329394.jpg"
 import sitLogo from "../assets/images/sit-removebg-preview.png";
 import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removebg-preview.png";
 import sitCampus from "../assets/images/1626788029037.jpg"
-import Questions from '../pages/registrationInfo/questions';
+import Questions from '../pages/questions/questions';
 function Home() {
   return (
     <div>
 
       <div className="home_hero-wrapper">
         <div className="home_hero-container">
-            <Navabar/>
+          <Navabar />
           <div className="home_conference-details-wrapper">
 
             <div className="home_conference-details-container">
@@ -28,7 +28,7 @@ function Home() {
                   <p>Hybrid Conference</p>
                 </div>
               </Marquee>
-              
+
 
               <div className="collage-images-container">
                 <div className="h_sit-logo-wrapper">
@@ -50,32 +50,29 @@ function Home() {
                   <h2>International Conference on Smart Systems for applications in <span>Electrical Sciences</span></h2>
                 </div>
                 <div className="home_date-container">
-                  <BsCalendarCheck className='calender-icon'/>
+                  <BsCalendarCheck className='calender-icon' />
                   <p>7th & 8th JULY 2023</p>
                 </div>
                 <div className="web-link"> <p>ICSSES is listed in the IEEE Conference Search/Call for Papers:
-<a target='_blank' id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a></p></div>
+                  <a target='_blank' id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a></p></div>
               </div>
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
                   <p>All accepted and presented papers will be submitted for the possible inclusion in IEEE XPLORE digital library.</p>
                 </div>
               </Marquee>
-              <br/>
-              <Marquee gradient={false} speed={40} pauseOnHover={true}>
+              <br />
+              {/* <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
                   <p>Paper Submission deadline extended till 15th May 2023.</p>
                   <p>Paper Submission deadline extended till 15th May 2023.</p>
                 </div>
-              </Marquee>
-              <div className="home-questions">
-                <Questions/>
-                </div>
+              </Marquee> */}
             </div>
           </div>
         </div>
       </div>
-      <Questions/>
+      <Questions />
       <div className="sit-image-wrapper">
         <div className="sit-wrapper">
           <div className="sit-campus-container">
@@ -86,50 +83,50 @@ function Home() {
           </div>
         </div>
       </div>
-      
-        <div className="about-the-confenrence-wrapper">
-          <div className="about-the-confenrence-container">
-            <div className="about-conf-heading">
-              <h2>About Conference</h2>
-            </div>
-            {/* <div className="conf-url">
+
+      <div className="about-the-confenrence-wrapper">
+        <div className="about-the-confenrence-container">
+          <div className="about-conf-heading">
+            <h2>About Conference</h2>
+          </div>
+          {/* <div className="conf-url">
                 <a href="">ICSSES is listed in the IEEE Conference Search/Call for Papers: </a>
               </div> */}
-            <div className="conf-para-container">
+          <div className="conf-para-container">
             <div className="confrence-para-1">
-                <p>
+              <p>
 
-                
-                </p>
-              </div>
-              <div className="confrence-para-1">
-                <p>
-                  International Conference on Smart systems for applications in Electrical Sciences, addresses  
-                  many diversified specialized areas like Autonomous 
-                  Vehicles, Wireless Communication, AI and ML applications, Secure Communication, IoT/Industry 4.0, Networks & Security, VLSI & 
-                  FPGA, High Voltage, Power Systems, Drives & Control, Biomedical, Robotics Systems, Signal & Image processing, Control & Automation, etc.
-                </p>
-              </div>
-              <div className="confrence-para-2">
-                <p>
-                  It will be held during  7th and 8th July 2023. The conference will feature plenary talks by distinguished researchers and technologists as well as contributed papers from academics and industry professionals. 
-                  ISSES 2023 is a platform for technologists and researchers from academia and industry across 
-                  the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers in hybrid mode.
-                </p>
-              </div>
+
+              </p>
+            </div>
+            <div className="confrence-para-1">
+              <p>
+                International Conference on Smart systems for applications in Electrical Sciences, addresses
+                many diversified specialized areas like Autonomous
+                Vehicles, Wireless Communication, AI and ML applications, Secure Communication, IoT/Industry 4.0, Networks & Security, VLSI &
+                FPGA, High Voltage, Power Systems, Drives & Control, Biomedical, Robotics Systems, Signal & Image processing, Control & Automation, etc.
+              </p>
+            </div>
+            <div className="confrence-para-2">
+              <p>
+                It will be held during  7th and 8th July 2023. The conference will feature plenary talks by distinguished researchers and technologists as well as contributed papers from academics and industry professionals.
+                ISSES 2023 is a platform for technologists and researchers from academia and industry across
+                the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers in hybrid mode.
+              </p>
+            </div>
           </div>
         </div>
-        </div>
+      </div>
 
       <div className="home_tracks-wrapper">
-          <div className="track-heading">
-            <h2>Tracks</h2>
-          </div>
-         <div className="home_tracks-containers">
-          
+        <div className="track-heading">
+          <h2>Tracks</h2>
+        </div>
+        <div className="home_tracks-containers">
+
           <div className="tracks-card-wrappers">
 
-            <motion.div 
+            <motion.div
               // animate={{y:"0px"}}
               // transition={{type:"tween",duration:1.25}}
               // initial={{y:"-9rem"}}
@@ -148,7 +145,7 @@ function Home() {
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               // animate={{y:"0px"}}
               // transition={{type:"tween",duration:1.25}}
               // initial={{y:"-9rem"}} 
@@ -226,7 +223,7 @@ function Home() {
                   <li>Real time attack detection</li>
                   <li>Applications of cryptography  in autonomous vehicle driving systems</li>
                   <li>Socio-economic impact of self driving cars</li>
-                  <li>Software and hardware and architecture of  self driving cars</li>
+                  <li>Software and hardware and architecture of self driving cars</li>
                   <li>Security in autonomous driving</li>
                   <li>Sign detection in self driving cars</li>
                 </ul>
@@ -285,9 +282,9 @@ function Home() {
           </div>
         </div>
       </div>
-      
+
       <div className="important-dates-container">
-        
+
         <div className="imp-dates-details">
           <div className="imp-date-heading">
             <h2>Important Dates</h2>
@@ -306,7 +303,7 @@ function Home() {
         </div>
       </div>
       <div className='footer'>
-        <MdOutlineCopyright className='copyright'/> 
+        <MdOutlineCopyright className='copyright' />
         <h2>Copyrights by IEEE SIT SB</h2>
       </div>
     </div>

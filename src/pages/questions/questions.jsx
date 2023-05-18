@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
 import { NavLink } from "react-router-dom"
 import { motion } from "framer-motion"
-import "../registrationInfo/questions.css"
+import "./questions.css"
 import { HiOutlineArrowSmRight } from "react-icons/hi"
 function Questions() {
   const [register, setRegister] = useState(false);
-  const [indianAuthor, setIndianAuthor] = useState(false);
-  const [academic, setAcademic] = useState(false);
-  const [industry, setIndustry] = useState(false);
-  const [foreign, setForeign] = useState(false);
-  const [flag, setFlag] = useState(false);
-  const [flag1, setFlag1] = useState(false);
-  const [attendee, setAttendee] = useState(false);
-  const [ieeeMember, setIeeemember] = useState(false);
+  // const [indianAuthor, setIndianAuthor] = useState(false);
+  // const [academic, setAcademic] = useState(false);
+  // const [industry, setIndustry] = useState(false);
+  // const [foreign, setForeign] = useState(false);
+  // const [flag, setFlag] = useState(false);
+  // const [flag1, setFlag1] = useState(false);
+  // const [attendee, setAttendee] = useState(false);
+  // const [ieeeMember, setIeeemember] = useState(false);
   return (
     <div>
       <div className='reg-info-div'>
