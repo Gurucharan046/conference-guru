@@ -26,8 +26,8 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                 <div className="google-form-main-container">
-                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
-                    <ul className='payment-step-details'>
+                <h2 className="payment-make-head">Registration</h2>
+                    <ul className='reg-step-details'>
                         <li className="step-detail">Once you have completed the payment.</li>
                         <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/fypuM3dxdYuQGwNC7" target='blank'>https://forms.gle/fypuM3dxdYuQGwNC7</a></li>
                     </ul>
@@ -47,8 +47,8 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                                     <div className="google-form-main-container">
-                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
-                    <ul className='payment-step-details'>
+                <h2 className="payment-make-head">Registration</h2>
+                    <ul className='reg-step-details'>
                         <li className="step-detail">Once you have completed the payment.</li>
                         <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/hGwmJsdLHG9zFa9L8" target='blank'>https://forms.gle/hGwmJsdLHG9zFa9L8</a></li>
                     </ul>
@@ -69,8 +69,8 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                 <div className="google-form-main-container">
-                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
-                    <ul className='payment-step-details'>
+                <h2 className="payment-make-head">Registration</h2>
+                    <ul className='reg-step-details'>
                         <li className="step-detail">Once you have completed the payment.</li>
                         <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/oG54FnvXDwNrsg3T8" target='blank'>https://forms.gle/oG54FnvXDwNrsg3T8</a></li>
                     </ul>
@@ -92,8 +92,8 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                 <div className="google-form-main-container">
-                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
-                    <ul className='payment-step-details'>
+                <h2 className="payment-make-head">Registration</h2>
+                    <ul className='reg-step-details'>
                         <li className="step-detail">Once you have completed the payment.</li>
                         <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/i9jZpEKPCCowAfgt6" target='blank'>https://forms.gle/i9jZpEKPCCowAfgt6</a></li>
                     </ul>
@@ -117,8 +117,8 @@ export default function PaymentInfo() {
                 </div>
 
                 <div className="google-form-main-container">
-                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
-                    <ul className='payment-step-details'>
+                <h2 className="payment-make-head">Registration</h2>
+                    <ul className='reg-step-detailss'>
                         <li className="step-detail">Once you have completed the payment.</li>
                         <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/WPg4XhmD2gGTZg9g9" target='blank'>https://forms.gle/WPg4XhmD2gGTZg9g9</a></li>
                     </ul>
@@ -143,7 +143,7 @@ export default function PaymentInfo() {
                 </div>
                 <div className="google-form-main-container">
                 <h2 className="payment-make-head">Instructions to make the Registration.</h2>
-                    <ul className='payment-step-details'>
+                    <ul className='reg-step-details'>
                         <li className="step-detail">Once you have completed the payment.</li>
                         <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/Z9m1LjtD7tziABWV9" target='blank'>https://forms.gle/Z9m1LjtD7tziABWV9</a></li>
                     </ul>
