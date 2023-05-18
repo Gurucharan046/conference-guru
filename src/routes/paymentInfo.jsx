@@ -13,6 +13,7 @@ import payment4 from '../assets/images/payment4.jpg'
 import RegistrationForm from './registerForm';
 import "../css/registration.css";
 import "../css/paymentInfo.css";
+import "../css/registerForm.css"
 export default function PaymentInfo() {
     const data = useLocation();
     const num = data.state.number;
@@ -25,9 +26,11 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                 <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="https://forms.gle/JcLtNB9cKUjCP9fs7" target='blank'>Google Form</a>
-                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
+                    <ul className='payment-step-details'>
+                        <li className="step-detail">Once you have completed the payment.</li>
+                        <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/fypuM3dxdYuQGwNC7" target='blank'>https://forms.gle/fypuM3dxdYuQGwNC7</a></li>
+                    </ul>
                 </div>
                 <div className='footer'>
                     <MdOutlineCopyright className='copyright' />
@@ -43,11 +46,14 @@ export default function PaymentInfo() {
                 <div className='details'>
                     <RegistrationForm />
                 </div>
-                <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="https://forms.gle/8tMXsFBCn26jFivC6" target='blank'>Google Form</a>
-                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+                                    <div className="google-form-main-container">
+                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
+                    <ul className='payment-step-details'>
+                        <li className="step-detail">Once you have completed the payment.</li>
+                        <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/hGwmJsdLHG9zFa9L8" target='blank'>https://forms.gle/hGwmJsdLHG9zFa9L8</a></li>
+                    </ul>
                 </div>
+                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 <div className='footer'>
                     <MdOutlineCopyright className='copyright' />
                     <h2>Copyrights by IEEE SIT SB</h2>
@@ -63,8 +69,12 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                 <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="https://forms.gle/GD6Dp7KYzS5QyeCb8" target='blank'>Google Form</a>
+                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
+                    <ul className='payment-step-details'>
+                        <li className="step-detail">Once you have completed the payment.</li>
+                        <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/oG54FnvXDwNrsg3T8" target='blank'>https://forms.gle/oG54FnvXDwNrsg3T8</a></li>
+                    </ul>
+
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -82,8 +92,13 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                 <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="https://forms.gle/9F8pALNTa8wqDYNz5" target='blank'>Google Form</a>
+                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
+                    <ul className='payment-step-details'>
+                        <li className="step-detail">Once you have completed the payment.</li>
+                        <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/i9jZpEKPCCowAfgt6" target='blank'>https://forms.gle/i9jZpEKPCCowAfgt6</a></li>
+                    </ul>
+
+                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -100,9 +115,16 @@ export default function PaymentInfo() {
                 <div className='details'>
                     <RegistrationForm />
                 </div>
+
                 <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="https://forms.gle/P63pYdwKJxGi3Wuy9" target='blank'>Google Form</a>
+                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
+                    <ul className='payment-step-details'>
+                        <li className="step-detail">Once you have completed the payment.</li>
+                        <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/WPg4XhmD2gGTZg9g9" target='blank'>https://forms.gle/WPg4XhmD2gGTZg9g9</a></li>
+                    </ul>
+
+                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer'>
@@ -120,8 +142,16 @@ export default function PaymentInfo() {
                     <RegistrationForm />
                 </div>
                 <div className="google-form-main-container">
-                    <h2 className='form-name'>Click Here to fill the google form:</h2>
-                    <a href="https://forms.gle/DjBPREUReKyGJ3396" target='blank'>Google Form</a>
+                <h2 className="payment-make-head">Instructions to make the Registration.</h2>
+                    <ul className='payment-step-details'>
+                        <li className="step-detail">Once you have completed the payment.</li>
+                        <li className="step-detail">Fill the Google Form. <a href="https://forms.gle/Z9m1LjtD7tziABWV9" target='blank'>https://forms.gle/Z9m1LjtD7tziABWV9</a></li>
+                    </ul>
+
+                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+                    {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+    
                     {/* <iframe className='gform' src="https://docs.google.com/forms/d/e/1FAIpQLSfOuWE1IDdlJYppIl-0xX3w9p-DThboHhRUGNDb-UgdUlWiEw/viewform?embedded=true" width="640" height="1499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                 </div>
                 <div className='footer pay-footer'>

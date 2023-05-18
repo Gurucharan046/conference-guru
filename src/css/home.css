@@ -532,6 +532,10 @@
     position: relative;
     margin-top:2rem;
 }
+.home-questions
+{
+     color: #000F23;
+}
 .imp-date-heading h2::after{
     content: "";
     width: 30%;

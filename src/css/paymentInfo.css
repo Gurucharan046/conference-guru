@@ -8,31 +8,8 @@
 }
 
 .google-form-main-container {
-     display: flex;
      justify-content: center;
      align-items: center;
      margin: 5rem 1rem;
      margin-bottom: 21rem;
-}
-.google-form-main-container a,
-.google-form-main-container a:visited,
-.google-form-main-container a:active {
-     text-decoration: none;
-     font-size: 3rem;
-     margin: 0 2rem;
-     padding: 2rem 3rem;
-     background-color: #EE0034;
-     color: white;
-     font-weight: 600;
-     border-radius: 0.5rem;
-     border: #EE0034 1.5px solid;
-     transition-property: background-color color border;
-     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-     transition-duration: 350ms;
-}
-
-.google-form-main-container a:hover {
-     background-color: white;
-     color: #EE0034;
-     border: #EE0034 1.5px solid;
 }

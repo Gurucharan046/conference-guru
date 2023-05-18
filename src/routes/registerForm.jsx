@@ -37,15 +37,17 @@ export default function RegistrationForm() {
                 <div className="images">
                     <p>4.Click on confirm inorder to proceed to the payment gateway</p>
                     <img src=-{payment4} className='image' alt="" />
-                </div> */}
-                <h2 className="payment-make-head">Follow the following steps to make the payment.</h2>
+                </div>
+                <a href="http://erp.sit.ac.in/external.aspx">http://erp.sit.ac.in/external.aspx</a> */}
+                <h2 className="payment-make-head">Instructions to make the payment.</h2>
                     <ul className='payment-step-details'>
-                        <li className="step-detail">Vist the payment website<a href="http://erp.sit.ac.in/external.aspx">http://erp.sit.ac.in/external.aspx</a></li>
-                        <li className="step-detail">Fill the required form detail <span className='note'>Please put your paper id in the Any id no</span> </li>
+                        <li className="step-detail">Vist the payment website.</li>
+                        <li className="step-detail">Fill the required form detail.Please put your paper id in the Any id no</li>
                         <li className="step-detail">Select the ICSSES 2023 from the Select Fee Header</li>
                         <li className="step-detail">Select the participant type in Select Fee Component</li>
                         <li className="step-detail">Click on confirm to proceed with the payment</li>
-                        <li className="step-detail">As soon as you complete the payment please take a note of  the 14 digit transaction reference number which looks like <span className='note'>"YUR31719819120"(first 3 digit is always alphabets)</span> </li>
+                        <li className="step-detail">As soon as you complete the payment please take a note of  the 14 digit transaction reference number which looks like "YUR31719819120"(first 3 digit is always alphabets)</li>
+                        <li className="step-detail">Website Link : <a href="http://erp.sit.ac.in/external.aspx" target='blank'>http://erp.sit.ac.in/external.aspx</a> </li>
                     </ul>
                     <br />
                     {/* <div className="payment-image-container">

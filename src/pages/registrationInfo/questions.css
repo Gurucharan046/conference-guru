@@ -10,15 +10,20 @@
     justify-content: center;
     align-items: center;
 }
+.particpation-type li
+{
+     font-size: 2.25rem;
+     font-family: "poppins";
+}
 .registration-tag
 {
      color: rgb(20, 20, 20);
      padding: 4px;
      margin-left: 10px;
+     margin-right: 0px;
      border: none;
      border-radius: 6%;
-     width:auto;
-     background: #d4ea48;
+     width:31rem;
 }
 /* @keyframes fadeIn {
     0% {opacity: 2;animation-delay: 6s;}
