@@ -1,50 +1,53 @@
-.no-show
-{
+.no-show {
     display: none;
 }
-.show-div-1,.show-div-2,.indian-author
-{
+
+.show-div-1,
+.show-div-2,
+.indian-author {
     display: flex;
     width: 100%;
     margin: 3rem 0;
     justify-content: center;
     align-items: center;
 }
-.particpation-type li
-{
-     font-size: 2.25rem;
-     font-family: "poppins";
+
+.particpation-type .register-link{
+    font-size: 2.25rem;
+    padding: 1.5rem 0;
+    font-family: "poppins";
+    text-decoration: none;
 }
-.registration-tag
-{
-     color: rgb(20, 20, 20);
-     padding: 4px;
-     margin-left: 10px;
-     margin-right: 0px;
-     border: none;
-     border-radius: 6%;
-     width:31rem;
+
+.registration-tag {
+    color: rgb(20, 20, 20);
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 6%;
+    width: 31rem;
 }
+
 /* @keyframes fadeIn {
     0% {opacity: 2;animation-delay: 6s;}
     100% {opacity: 1;color: rgb(20, 20, 20);background:white;border: none;}
  }  */
-h3
-{
-     font-size: 2.4rem;
+h3 {
+    font-size: 2.4rem;
 }
-.indian-author
-{
+
+.indian-author {
     margin-top: 10px;
 }
-.yes
-{
+
+.yes {
     outline: none;
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: #89E88C;
     color: white;
-    border:none;
+    border: none;
     font-weight: 500;
     cursor: pointer;
     margin: 0 2rem;
@@ -52,14 +55,15 @@ h3
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition-duration: 350ms;
 }
-.no
-{
+
+.no {
     outline: none;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: #EE0034;;
+    background-color: #EE0034;
+    ;
     color: white;
-    border:none;
+    border: none;
     font-weight: 500;
     cursor: pointer;
     margin: 0 2rem;
@@ -67,29 +71,14 @@ h3
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition-duration: 350ms;
 }
-.aca-exp
-{
+
+.aca-exp {
     outline: none;
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: #5793FA;
     color: white;
-    border:none;
-    font-weight: 500;
-    cursor: pointer;
-    margin: 0 2rem;
-    transition-property: background-color color border;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-duration: 350ms;
-}
-.ind-exp
-{
-    outline: none;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background-color:#efe55a;
-    color: white;
-    border:none;
+    border: none;
     font-weight: 500;
     cursor: pointer;
     margin: 0 2rem;
@@ -98,17 +87,33 @@ h3
     transition-duration: 350ms;
 }
 
-@media only screen and (max-width: 768px){
+.ind-exp {
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #efe55a;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 2rem;
+    transition-property: background-color color border;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 350ms;
+}
+
+@media only screen and (max-width: 768px) {
     .payment-step-details {
         padding: 5rem 0rem;
         margin: 0 1.5rem;
     }
 
-    .payment-image-container{
+    .payment-image-container {
         flex-direction: column;
     }
 
-    .payment-image-1, .payment-image-2{
+    .payment-image-1,
+    .payment-image-2 {
         margin: 2rem 0 !important;
         text-align: center;
     }
