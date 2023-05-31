@@ -1,8 +1,5 @@
-import React, { useState } from 'react'
-import { NavLink } from "react-router-dom"
-import { motion } from "framer-motion"
+import React from 'react'
 import "../registrationInfo/registrationInfo.css"
-import { HiOutlineArrowSmRight } from "react-icons/hi"
 function RegistrationInfo() {
   return (
     <div className="detailsShower">
@@ -34,12 +31,6 @@ function RegistrationInfo() {
           <td>80 USD</td>
           <td>120 USD</td>
         </tr>
-        {/* <tr>
-        <td className='two-row-col-2'></td>
-        <td>Faculty, Industry</td>
-        <td>75 USD</td>
-        <td>90 USD</td>
-      </tr> */}
         <tr>
           <td className='col-head two-row-col-1 text-head'>Attendees</td>
           <td className='last-row'>Rs. 2000</td>

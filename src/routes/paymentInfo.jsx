@@ -1,23 +1,14 @@
-import React, { useState } from 'react';
-// import "../css/registerForm.css";
-// import "../pages/registrationInfo/registrationInfo";
-import { HiOutlineArrowSmRight } from "react-icons/hi"
+import React from 'react';
 import Navabar from '../components/navbar/navabar'
-import { NavLink, useLocation } from "react-router-dom"
-import RegistrationInfo from '../pages/registrationInfo/registrationInfo';
+import {  useLocation } from "react-router-dom"
 import { MdOutlineCopyright } from "react-icons/md"
-import payment1 from '../assets/images/payment1.jpg'
-import payment2 from '../assets/images/payment2.jpg'
-import payment3 from '../assets/images/payment3.jpg'
-import payment4 from '../assets/images/payment4.jpg'
 import RegistrationForm from './registerForm';
-// import "../css/registration.css";
 import "../css/paymentInfo.css";
-// import "../css/registerForm.css"
+
+
 export default function PaymentInfo() {
     const data = useLocation();
     const num = data.state.number;
-    const [paymentStep, setPaymentStep] = useState(true)
     if (num === 1) {
         return (
             <div className='payment-info-main-container'>

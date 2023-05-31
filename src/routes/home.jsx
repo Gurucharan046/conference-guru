@@ -10,6 +10,8 @@ import sitLogo from "../assets/images/sit-removebg-preview.png";
 import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removebg-preview.png";
 import sitCampus from "../assets/images/1626788029037.jpg"
 import Questions from '../pages/questions/questions';
+import ImportantDetails from "../components/imp-details/imp-details";
+
 function Home() {
   return (
     <div>
@@ -54,7 +56,7 @@ function Home() {
                   <p>7th & 8th JULY 2023</p>
                 </div>
                 <div className="web-link"> <p>ICSSES is listed in the IEEE Conference Search/Call for Papers:
-                  <a target='_blank' id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a></p></div>
+                  <a target='_blank' rel="noreferrer" id='ic-link' href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299">https://conferences.ieee.org/conferences_events/conferences/conferencedetails/58299</a></p></div>
               </div>
               <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
@@ -73,6 +75,7 @@ function Home() {
         </div>
       </div>
       <Questions />
+      <ImportantDetails/>
       <div className="sit-image-wrapper">
         <div className="sit-wrapper">
           <div className="sit-campus-container">
@@ -93,12 +96,6 @@ function Home() {
                 <a href="">ICSSES is listed in the IEEE Conference Search/Call for Papers: </a>
               </div> */}
           <div className="conf-para-container">
-            <div className="confrence-para-1">
-              <p>
-
-
-              </p>
-            </div>
             <div className="confrence-para-1">
               <p>
                 International Conference on Smart systems for applications in Electrical Sciences, addresses
