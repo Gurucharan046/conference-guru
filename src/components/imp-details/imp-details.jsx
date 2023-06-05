@@ -1,6 +1,7 @@
 import React from 'react';
 import "./imp-details.css";
-import downloadPDF from "../../assets/registrations.pdf";
+import downloadPDFReg from "../../assets/registrations.pdf";
+import downloadPDFToBeConfirm from "../../assets/toBeConfirmed.pdf";
 
 export default function impDetails() {
 
@@ -46,9 +47,14 @@ export default function impDetails() {
                     </p>
                 </div>
             </div>
-            <a href={downloadPDF} download="Example-PDF-document" target="_blank" rel="noreferrer">
-                <button className='download-btn'>Confirmed Registrations</button>
-            </a>
+            <div className="imp-page-buttons">
+                <a href={downloadPDFReg} download="Example-PDF-document" target="_blank" rel="noreferrer">
+                    <button className='download-btn'>Confirmed Registrations</button>
+                </a>
+                <a href={downloadPDFToBeConfirm} download="Example-PDF-document" target="_blank" rel="noreferrer">
+                    <button className='download-btn'>Registrations to be Confirmed</button>
+                </a>
+            </div>
         </div>
     )
 }
