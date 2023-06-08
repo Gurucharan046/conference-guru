@@ -48,12 +48,12 @@ export default function impDetails() {
                 </div>
             </div>
             <div className="imp-page-buttons">
-                <a href={downloadPDFReg} download="Example-PDF-document" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/drive/folders/1IfgNpVPjQy-8mxVhlQnPVuZebkVF5ODJ?usp=sharing" target="_blank" rel="noreferrer">
                     <button className='download-btn'>Confirmed Registrations</button>
                 </a>
-                <a href={downloadPDFToBeConfirm} download="Example-PDF-document" target="_blank" rel="noreferrer">
+                {/* <a href={downloadPDFToBeConfirm} download="Example-PDF-document" target="_blank" rel="noreferrer">
                     <button className='download-btn'>Registrations to be Confirmed</button>
-                </a>
+                </a> */}
             </div>
         </div>
     )
