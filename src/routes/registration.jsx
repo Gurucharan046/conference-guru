@@ -1,4 +1,5 @@
 import React from 'react';
+import ImportantDetails from '../components/imp-details/imp-details.jsx'
 import "../css/registration.css";
 import "../pages/registrationInfo/registrationInfo";
 import Navabar from '../components/navbar/navabar'
@@ -10,8 +11,12 @@ export default function Registration() {
         <section className='registration-page-main-container'>
             <div className='registration-page-hero-container'>
                 <Navabar />
+        
                 <RegistrationInfo />
-                <Questions />
+                <p className="reg-closed-1">REGISTRATIONS CLOSED!!!</p>
+                {/* <Questions /> */}
+
+                
                 <div className='footer'>
                     <MdOutlineCopyright className='copyright' />
                     <h2>Copyrights by IEEE SIT SB</h2>

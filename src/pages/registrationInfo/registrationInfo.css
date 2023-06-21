@@ -5,7 +5,10 @@
 
 .detailsShower {
   margin:0 auto;
-  padding: 5rem 0;
+  /* padding: 5rem 0; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 1rem;
 }
 
 .reg-info-heading,
@@ -62,6 +65,7 @@ td {
 
 .reg-table-details{
   margin: 0 auto;
+  margin-bottom: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 2.05rem;

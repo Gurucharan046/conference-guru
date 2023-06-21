@@ -31,7 +31,6 @@ function Home() {
                 </div>
               </Marquee>
 
-
               <div className="collage-images-container">
                 <div className="h_sit-logo-wrapper">
                   <img src={sitLogo} alt="" />
@@ -64,18 +63,25 @@ function Home() {
                 </div>
               </Marquee>
               <br />
-              {/* <Marquee gradient={false} speed={40} pauseOnHover={true}>
+              <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="home-confrence-type-marquee-container">
-                  <p>Paper Submission deadline extended till 15th May 2023.</p>
-                  <p>Paper Submission deadline extended till 15th May 2023.</p>
+                  <p>Payment and Registration deadline extended till 14th June 2023. <span className='hard-dline'> Hard Deadline</span></p>
+                  <p>Payment and Registration deadline extended till 14th June 2023. <span className='hard-dline'> Hard Deadline</span></p>
                 </div>
-              </Marquee> */}
+              </Marquee>
+              <div className="reg-closed">
+                <p>REGISTRATIONS CLOSED!!!</p>
+                <br></br>
+              </div>
+              <ImportantDetails />
             </div>
           </div>
         </div>
       </div>
-      <Questions />
-      <ImportantDetails/>
+      <div className="home-notifications">
+        <Questions />
+      </div>
+      
       <div className="sit-image-wrapper">
         <div className="sit-wrapper">
           <div className="sit-campus-container">
@@ -107,7 +113,7 @@ function Home() {
             <div className="confrence-para-2">
               <p>
                 It will be held during  7th and 8th July 2023. The conference will feature plenary talks by distinguished researchers and technologists as well as contributed papers from academics and industry professionals.
-                ISSES 2023 is a platform for technologists and researchers from academia and industry across
+                ICSSES 2023 is a platform for technologists and researchers from academia and industry across
                 the globe to share their ideas on emerging technologies and newer solutions that can guide and lead towards a better tomorrow. Authors can present the papers in hybrid mode.
               </p>
             </div>
@@ -291,7 +297,7 @@ function Home() {
             <li>Full Paper Submission Deadline: 15th May 2023<span className='hard-dline'> Hard Deadline</span></li>
             <li>Acceptance/Rejection Notification <span className="phase">(PHASE-1)</span> : 15th May 2023</li>
             <li>Submission of camera ready paper <span className="phase">(PHASE-1)</span> : 20th May 2023</li>
-            <li>Registration <span className="phase">(PHASE-1)</span> : 18th May 2023 to 27th May 2023</li>
+            <li>Payment and Registration Deadline : 14th June 2023<span className='hard-dline'> Hard Deadline</span></li>
             <li>Conference dates: 7th, 8th July 2023</li>
           </ul>
         </div>

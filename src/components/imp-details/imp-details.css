@@ -58,9 +58,12 @@
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition-duration: 350ms;
 }
-
 .download-btn:hover {
     background-color: white;
     color: #EE0034;
     border: #EE0034 1.5px solid;
+  }
+  .no-show
+  {
+    display: none;
   }
