@@ -36,7 +36,8 @@ function Questions() {
       <Marquee gradient={false} speed={40} pauseOnHover={true}>
                 <div className="questions-confrence-type-marquee-container">
                   <p>If your Paper Title is not found in a particular track, check whether your paper title is present in other track.</p>
-                  <p>If you did not find your paper title in any tracks, please contact <a href="mailto:veena.karjigi@sit.ac.in"> veena.karjigi@sit.ac.in  </a></p>
+                  <p>If you did not find your paper title in any tracks, please contact <a href="mailto:veena.karjigi@sit.ac.in"> 
+                  veena.karjigi@sit.ac.in  </a></p>
                 </div>
               </Marquee>
     </div>

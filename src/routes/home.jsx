@@ -11,6 +11,7 @@ import siddagngaSwamiji from "../assets/images/Shivakumara-Swamy-Tribute-removeb
 import sitCampus from "../assets/images/1626788029037.jpg"
 import Questions from '../pages/questions/questions';
 import ImportantDetails from "../components/imp-details/imp-details";
+import Contacts from '../routes/contact_card'
 
 function Home() {
   return (
@@ -80,6 +81,8 @@ function Home() {
       </div>
       <div className="home-notifications">
         <Questions />
+        <Contacts/>
+
       </div>
       
       <div className="sit-image-wrapper">
