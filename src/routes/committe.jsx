@@ -243,6 +243,7 @@ export default function committe() {
                 <h3 className="committe-details">Dr. Venkatesh Murthy B T, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. Vinayaka K U, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr.Rashmi Aradhya, SIT, Tumkur</h3>
+                <h3 className="committe-details">Dr.Seema B Hegde, SIT, Tumkur</h3>
                 <h3 className="committe-details">Dr. G Manjula,GSSS Institute Of Engineering And Technology, Mysore </h3>
                 <h3 className="committe-details">Dr. Geetha R S, BMSCE, Bangalore</h3>
                 <h3 className="committe-details">Dr. H Kumaraswamy, RVCE, Bangalore</h3>

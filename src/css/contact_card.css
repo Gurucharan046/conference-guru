@@ -1,0 +1,14 @@
+.contact-card-line
+{
+     display: flex;
+     width: 90%;
+}
+.contact-card{
+margin-left: 2.5%;
+margin-top: 2%;
+padding: 2rem 0 2rem 2.8rem;
+background-color: #fff;
+border-radius: 0.75rem;
+box-shadow: 2px 5px 8px -3px rgba(0, 0, 0, 0.1);
+font-size: 1.25rem;
+}
