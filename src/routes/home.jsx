@@ -64,27 +64,19 @@ function Home() {
                 </div>
               </Marquee>
               <br />
-              <Marquee gradient={false} speed={40} pauseOnHover={true}>
-                <div className="home-confrence-type-marquee-container">
-                  <p>Payment and Registration deadline extended till 14th June 2023. <span className='hard-dline'> Hard Deadline</span></p>
-                  <p>Payment and Registration deadline extended till 14th June 2023. <span className='hard-dline'> Hard Deadline</span></p>
-                </div>
-              </Marquee>
-              <div className="reg-closed">
-                <p>REGISTRATIONS CLOSED!!!</p>
-                <br></br>
-              </div>
-              <ImportantDetails />
             </div>
           </div>
         </div>
       </div>
       <div className="home-notifications">
+        <div className="reg-closed">
+          <p>REGISTRATIONS CLOSED!!!</p>
+        </div>
+        <ImportantDetails />
         <Questions />
-        <Contacts/>
-
+        <Contacts />
       </div>
-      
+
       <div className="sit-image-wrapper">
         <div className="sit-wrapper">
           <div className="sit-campus-container">

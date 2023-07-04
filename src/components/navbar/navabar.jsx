@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 
 function Navabar() {
     const [navVisible, setNavVisible] = useState(false);
-    const [isClicked, setisClicked] = useState(false)
+    // const [isClicked, setisClicked] = useState(false)
     
     //animation code to make navbar have color grey
     //when the screen is scrolled more than 15vh

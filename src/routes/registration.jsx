@@ -1,11 +1,11 @@
 import React from 'react';
-import ImportantDetails from '../components/imp-details/imp-details.jsx'
+// import ImportantDetails from '../components/imp-details/imp-details.jsx'
 import "../css/registration.css";
 import "../pages/registrationInfo/registrationInfo";
 import Navabar from '../components/navbar/navabar'
 import RegistrationInfo from '../pages/registrationInfo/registrationInfo';
 import { MdOutlineCopyright } from "react-icons/md"
-import Questions from '../pages/questions/questions';
+// import Questions from '../pages/questions/questions';
 export default function Registration() {
     return (
         <section className='registration-page-main-container'>

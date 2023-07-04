@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import "../css/about.css"
 // import "../pages/registrationInfo/registrationInfo"
 import "../css/callForPapers.css"
-import Navabar from '../components/navbar/navabar'
+// import Navabar from '../components/navbar/navabar'
 import {NavLink} from "react-router-dom"
 import {motion} from "framer-motion"
 import callForPapersBanner from "../assets/images/Call-For-Papers-Banner.png"
@@ -12,7 +12,7 @@ import {HiOutlineArrowSmRight} from "react-icons/hi"
 
 export default function Papersubmission() {
     const [navVisible, setNavVisible] = useState(false);
-    const [isClicked, setisClicked] = useState(false)
+    // const [isClicked, setisClicked] = useState(false)
     
     //animation code to make navbar have color grey
     //when the screen is scrolled more than 15vh
@@ -83,6 +83,7 @@ export default function Papersubmission() {
                         <a 
                             href="https://www.ieee.org/conferences/publishing/templates.html"
                             target="_blank"
+                            rel="noreferrer"
                             >
                             <button>Click Here</button>
                         </a>
@@ -93,6 +94,7 @@ export default function Papersubmission() {
                         <a 
                             href="https://cmt3.research.microsoft.com/ICSSES2023"
                             target="_blank"
+                            rel="noreferrer"
                             >
                             <button>Click Here</button>
                         </a>

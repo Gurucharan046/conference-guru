@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./imp-details.css";
-import downloadPDFReg from "../../assets/registrations.pdf";
-import downloadPDFToBeConfirm from "../../assets/toBeConfirmed.pdf";
+// import downloadPDFReg from "../../assets/registrations.pdf";
+// import downloadPDFToBeConfirm from "../../assets/toBeConfirmed.pdf";
 
 export default function ImpDetails() {
 
-const [schedule,setSchedule]=useState(false);
+// const [schedule,setSchedule]=useState(false);
     return (
         // <div className="imp-details-confenrence-container">
         //     <div className="imp-para-container">
@@ -49,7 +49,7 @@ const [schedule,setSchedule]=useState(false);
         //     </div>
             <div className="imp-page-buttons">
                 <a href="https://drive.google.com/drive/folders/1IfgNpVPjQy-8mxVhlQnPVuZebkVF5ODJ?usp=sharing" target="_blank" rel="noreferrer">
-                    <button className='download-btn'>Confirmed Registrations</button>
+                    <button className='download-btn'>CONFIRMED REGISTRATIONS</button>
                 </a>
             
                 {/* <a href={downloadPDFToBeConfirm} download="Example-PDF-document" target="_blank" rel="noreferrer">

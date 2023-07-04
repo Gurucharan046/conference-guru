@@ -2,7 +2,7 @@ import React from 'react'
 import "../css/contactus.css"
 import { MdOutlineCopyright } from "react-icons/md"
 import { motion } from "framer-motion"
-import logo from "../assets/images/sit logo.png";
+// import logo from "../assets/images/sit logo.png";
 import Navabar from '../components/navbar/navabar'
 function Contactus() {
   return (

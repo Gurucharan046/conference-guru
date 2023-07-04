@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import { NavLink } from "react-router-dom"
-import { motion } from "framer-motion"
+// import { NavLink } from "react-router-dom"
+// import { motion } from "framer-motion"
 import "./questions.css"
 import Marquee from 'react-fast-marquee'
 import downloadPDFTrack1 from "../../assets/letterhead1_schedule_icsses2023_ECE1.pdf";
 import downloadPDFTrack2 from "../../assets/letterhead1_schedule_icsses2023_ETE.pdf";
 import downloadPDFTrack3 from "../../assets/letterhead1_schedule_icsses2023_EIE.pdf";
 import downloadPDFTrack4 from "../../assets/letterhead1_schedule_icsses2023_EEE.pdf";
-import { HiOutlineArrowSmRight } from "react-icons/hi"
+// import { HiOutlineArrowSmRight } from "react-icons/hi"
 function Questions() {
   const [register, setRegister] = useState(false);
   // const [indianAuthor, setIndianAuthor] = useState(false);
